@@ -1,0 +1,296 @@
+{
+  "Stage 1": {
+    "stage": "Stage 1",
+    "era": "10 years ago (around 2014-2015)",
+    "nodes": {
+      "Technology and Resources": "Smartphone; Efficient spectrum use due to standardized network technologies increased peak download speeds and reduced infrastructure costs, enhancing mobile devices and software ecosystems.; Development of 4G-LTE networks, app ecosystems, and behavioural-design techniques.",
+      "People's Values": "Values emphasizing constant connectivity, immediate information access, and diverse self-presentation.; Fluid, non-hierarchical art consumption and values of inclusivity, activism, and democratic participation, reflecting Generation Z's cultural shift.",
+      "Social Issues": "Planned obsolescence and the innovation narrative as recognized social issues.; Highlighted smartphone defects emphasized vulnerabilities, causing public demand for institutional action on device reliability and security.",
+      "Daily Spaces and User Experience": "Users found seamless, efficient interactions in productivity apps as valuable, influencing their daily smartphone usage and overall user experience.; Enhanced user experiences with intuitive, visually consistent apps across devices, driven by high-speed connectivity and robust hardware.",
+      "Institutions": "Smartphone connectivity norms shape institutional practices across schools, homes, and organizations.; Institutions are reshaped through digital service integration, app-based platforms, and new strategic alliances across finance, retail, and education sectors.",
+      "Avant-garde Social Issues": "The proliferation of smartphones and mobile devices reshaped social behaviors, leading to increased mental health issues, cyber-bullying, and new forms of civic engagement.; Highlighted issues include consumerism, data exploitation, surveillance economy, and mental-health impacts."
+    },
+    "arrows": [
+      {
+        "source": "Institutions",
+        "target": "Technology and Resources",
+        "type": "Standardization",
+        "definition": "Standardization optimizes resource use and lowers costs, fostering technological advancement.",
+        "example": "The worldwide rollout of LTE and LTE-Advanced improved network efficiency and reduced smartphone costs."
+      },
+      {
+        "source": "Social Issues",
+        "target": "People's Values",
+        "type": "Communication",
+        "definition": "Conveys social issues via smartphones, influencing connectivity and personal values.",
+        "example": "Smartphones enhancing social connection yet risking addiction and displacing offline interactions."
+      },
+      {
+        "source": "Avant-garde Social Issues",
+        "target": "Social Issues",
+        "type": "Community Formation",
+        "definition": "Communities form around avant-garde practices, framing them as social interventions.",
+        "example": "Ethical smartphone brand owners organizing repair tutorials and collective maintenance campaigns."
+      },
+      {
+        "source": "Institutions",
+        "target": "Social Issues",
+        "type": "Media",
+        "definition": "Media exposes institutional issues, highlighting flaws prompting public concern and oversight.",
+        "example": "Widespread media coverage of smartphone hardware and software defects, prompting calls for stronger oversight."
+      },
+      {
+        "source": "Avant-garde Social Issues",
+        "target": "People's Values",
+        "type": "Cultural Arts Promotion",
+        "definition": "Exhibitions use digital platforms to engage audiences with avant-garde social issues, influencing cultural values.",
+        "example": "The Columbus Museum of Art's 'Mobile Photo Now' pop-up, crowdsourcing Instagram images around social justice and urban life themes."
+      },
+      {
+        "source": "Social Issues",
+        "target": "Technology and Resources",
+        "type": "Organization",
+        "definition": "Organizations solve social issues by innovating technology resources.",
+        "example": "The Center for Humane Technology was founded to address smartphone-induced issues."
+      },
+      {
+        "source": "People's Values",
+        "target": "Daily Spaces and User Experience",
+        "type": "Meaning Attribution",
+        "definition": "This connection explains how personal values shape user experiences with technology products.",
+        "example": "Users rated productivity apps like Slack as the most meaningful, reflecting a value in efficiency and instrumental use."
+      },
+      {
+        "source": "Technology and Resources",
+        "target": "Daily Spaces and User Experience",
+        "type": "Products/Services",
+        "definition": "Integration of advanced technology into products enhances daily user interfaces and experiences.",
+        "example": "Introduction of LTE-Advanced networks enabling high-resolution media and real-time cloud services."
+      },
+      {
+        "source": "People's Values",
+        "target": "Institutions",
+        "type": "Habituation",
+        "definition": "Smartphone use norms solidify institutions by embedding connectivity expectations in society.",
+        "example": "Smartphone ownership surged to 92% in the U.S., making it essential in daily life."
+      },
+      {
+        "source": "Technology and Resources",
+        "target": "Avant-garde Social Issues",
+        "type": "Paradigm",
+        "definition": "Dominant tech causes emerging social issues by reshaping behaviors.",
+        "example": "Smartphones led to increased cyber-bullying and mental health concerns among adolescents."
+      },
+      {
+        "source": "Daily Spaces and User Experience",
+        "target": "Avant-garde Social Issues",
+        "type": "Art (Social Criticism)",
+        "definition": "Artists use smartphones in art to critique and reveal social issues.",
+        "example": "Artists critiqued smartphone's role in consumerism and data exploitation via mobile art installations."
+      },
+      {
+        "source": "Daily Spaces and User Experience",
+        "target": "Institutions",
+        "type": "Business Ecosystem",
+        "definition": "Mobile ecosystems create alliances and strategies, reshaping institutions through digital transformation and evolving services.",
+        "example": "Rapid smartphone ecosystem growth increased mobile transactions, requiring banks to launch apps and adapt services."
+      }
+    ]
+  },
+  "Stage 2": {
+    "stage": "Stage 2",
+    "era": "Current year (2024-2025)",
+    "nodes": {
+      "Technology and Resources": "Smartphone; Unified standards like 3GPP and 5G Advanced streamline smartphone design and manufacturing, enable AI and IoT integration, and amplify mobile tech contributions to global GDP.; Technology includes AI-enhanced smartphones for health monitoring and climate tracking.",
+      "Social Issues": "Social issues like anxiety, depression, and educational impact from excessive smartphone and social media use are recognized through media exposures.; Debates on mental health, digital addiction, and equity emerge as social issues from smartphone-facilitated avant-garde movements.",
+      "People's Values": "Emerging values focus on self-regulation and authenticity despite widespread smartphone dependence and digital connectivity.; Enhanced awareness and inclusion of diverse societal values through participatory smartphone experiences.",
+      "Daily Spaces and User Experience": "Users engage with smartphones predominantly for connectivity, information access, entertainment, work productivity, financial control, and health, reflecting varied user experiences based on personal values.; Enhanced user experiences via foldable and AR devices, optimized AI-driven features for personalization, and seamless app interactions leveraging 5G ecosystems.",
+      "Institutions": "Institutions have adopted digital-well-being standards, age-based screen-time regulations, mandatory 'do-not-disturb' periods for workers, expanded consent requirements, and right-to-repair provisions.; Telecommunications regulators, standards bodies, and government programs ensure 5G rollout, enforce privacy, and promote digital inclusion.",
+      "Avant-garde Social Issues": "Overwhelming mobile use, increased screen time, sleep disruption, digital addiction, distracted driving, privacy concerns, and mental health impacts on youth.; Modern alienation and mental-health crises from smartphones challenge attention economy and privacy."
+    },
+    "arrows": [
+      {
+        "source": "Institutions",
+        "target": "Social Issues",
+        "type": "Media",
+        "definition": "Media reveals institutional flaws causing smartphone-related social and mental-health issues.",
+        "example": "Federal and state reforms in the U.S. restrict school smartphone use due to mental-health concerns."
+      },
+      {
+        "source": "Social Issues",
+        "target": "People's Values",
+        "type": "Communication",
+        "definition": "Social networks shift social issues around mental health to values of self-regulation and mindful tech use.",
+        "example": "Teens view social media's negative effects, prompting interest in more authentic relationships."
+      },
+      {
+        "source": "Avant-garde Social Issues",
+        "target": "People's Values",
+        "type": "Cultural Arts Promotion",
+        "definition": "Smartphones used as platforms to convey cutting-edge cultural arts reshaping societal values.",
+        "example": "Prix Ars Electronica 2025 exhibition using smartphones for AI-driven installations impacting audience values."
+      },
+      {
+        "source": "Avant-garde Social Issues",
+        "target": "Social Issues",
+        "type": "Community Formation",
+        "definition": "Smartphones connect digital communities to transform avant-garde issues into widely recognized social concerns.",
+        "example": "Coordinated activism and experimental media-making on mobile platforms challenge narratives and amplify marginal voices."
+      },
+      {
+        "source": "Institutions",
+        "target": "Technology and Resources",
+        "type": "Standardization",
+        "definition": "Standardization integrates technologies, reduces costs, and enhances accessibility by streamlining design and fostering innovation.",
+        "example": "Unified cellular specifications and protocols accelerating smartphone interoperability and innovation."
+      },
+      {
+        "source": "Social Issues",
+        "target": "Technology and Resources",
+        "type": "Organization",
+        "definition": "Organizations use mobile tech and AI to resolve social issues, creating new resources.",
+        "example": "Smartphone organizations use AI for health monitoring and digital-skills training."
+      },
+      {
+        "source": "People's Values",
+        "target": "Daily Spaces and User Experience",
+        "type": "Meaning Attribution",
+        "definition": "Connecting personal values with smartphone use to shape user experiences.",
+        "example": "Smartphone use for maintaining relationships and accessing banking services driven by social connectivity and financial control values."
+      },
+      {
+        "source": "Technology and Resources",
+        "target": "Daily Spaces and User Experience",
+        "type": "Products/Services",
+        "definition": "Technology aids in creating products bridging tech to enriched daily user experiences.",
+        "example": "Smartphones with AI and 5G enhancing user interface, security, and app integration."
+      },
+      {
+        "source": "People's Values",
+        "target": "Institutions",
+        "type": "Habituation",
+        "definition": "Public values create habitual use of technology, prompting corresponding institutional regulations.",
+        "example": "Smartphone reliance leads to digital-well-being standards and screen-time limits."
+      },
+      {
+        "source": "Technology and Resources",
+        "target": "Avant-garde Social Issues",
+        "type": "Paradigm",
+        "definition": "Technological innovations lead to new societal challenges and emerging social issues.",
+        "example": "AI-driven devices, foldable phones, and expanded 5G increased screen time and anxiety, highlighting issues like digital addiction and distracted driving."
+      },
+      {
+        "source": "Daily Spaces and User Experience",
+        "target": "Avant-garde Social Issues",
+        "type": "Art (Social Criticism)",
+        "definition": "Artists critique modern life, highlighting issues from technology's impact on daily experiences.",
+        "example": "Avant-garde creators address smartphone overuse with multimedia art exposing attention economy's effects."
+      },
+      {
+        "source": "Daily Spaces and User Experience",
+        "target": "Institutions",
+        "type": "Business Ecosystem",
+        "definition": "Stakeholder network that maintains daily experiences by shaping and supporting institutions.",
+        "example": "The global smartphone ecosystem, drivers such as AI-powered user experiences and integration of 5G networks."
+      }
+    ]
+  },
+  "Stage 3": {
+    "stage": "Stage 3",
+    "era": "Future (Maturity Period)",
+    "nodes": {
+      "Avant-garde Social Issues": "In the maturity period, smartphones create pervasive Ethical Disengagement, as users become overly reliant on digital moral frameworks for decision-making, inadvertently diminishing personal accountability and critical thinking, leading to societal debates on the balance between human intuition and algorithmic ethics in personal choices.",
+      "People's Values": "As smartphones seamlessly weave augmented reality into daily life, people's values shift towards a highly collaborative creativity. Artistic co-creation, driven by real-time, shared digital canvases in public and private spaces, fosters a collective ethos that respects diverse cultural narratives and empowers customized experiential expression.",
+      "Social Issues": "Digital moral bankruptcies emerge as a social issue, where excessive reliance on smartphone ethics leads to diminished intrinsic moral reasoning, prompting critical dialogue on preserving human accountability amidst algorithm-driven ethical guidance, and fostering education systems dedicated to nurturing independent ethical judgment paralleled with digital capabilities.",
+      "Technology and Resources": "In the maturity period, smartphones evolve into emotion-responsive aids, using biometrics and AI to interpret users' emotional states and offer personalized counseling, thereby enhancing emotional intelligence and promoting well-being. These devices become intuitive mediators, fostering empathy and human-like connections in digital interactions, shaping harmonious societal dynamics by nurturing relational attitudes.",
+      "Daily Spaces and User Experience": "In the Maturity Period, shared augmented spaces, powered by emotion-aware devices, cultivate communal well-being by integrating personal mood data with community-led initiatives. These environments adapt dynamically, aligning neighborhood vibes with individual emotions, reinforcing community bonds and mindfulness, and promoting social harmony through tech-enriched mutual empathy.",
+      "Institutions": "In the Maturity Period, institutions evolve into proactive collaborators in cultural integration, orchestrating community-owned AR art projects that reinforce social accountability while ensuring personalized, tech-integrated regulatory systems. By intertwining creativity and governance, they cultivate civic identity, encouraging symbiosis between diverse societal narratives and augmented digital environments."
+    },
+    "arrows": [
+      {
+        "source": "Institutions",
+        "target": "Social Issues",
+        "type": "Media",
+        "definition": "In the Maturity Period, media highlights a disconnect as digital ethics embedded in smartphones foster societal echo chambers, sparking revelations and advocacy for moderation and authentic dialogue. This pushes institutions to address technological echo effects, fostering inclusivity and holistic understanding beyond algorithmic biases.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "Avant-garde Social Issues",
+        "target": "Social Issues",
+        "type": "Community Formation",
+        "definition": "Virtual Ethical Assemblies within smartphones interlink worldwide perspectives, facilitating cultural-social exchanges on emerging issues. Enabling equitable connections across diverse voices, these assemblies shape evolving social standards, empowering community-driven inclusivity and multifacial narratives that nurture interveners for complex global moral dilemmas, thereby reinforcing collective ethical growth.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "Avant-garde Social Issues",
+        "target": "People's Values",
+        "type": "Cultural Arts Promotion",
+        "definition": "Artistic digital festivals use smartphones as immersive cultural stages, where holographic installations, powered by ethical algorithms, reshape public preferences to favor diversity and cooperation. These cultural experiences inspire collective values, transcending traditional boundaries and nurturing an inclusive, digitally transformative societal framework.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "Institutions",
+        "target": "Technology and Resources",
+        "type": "Standardization",
+        "definition": "In the Maturity Period, standardization advances globally unified ethical AI systems in smartphones, aligning AI across platforms to provide universally sound ethical guidance while preserving cultural uniqueness. This equilibrium ensures consistent moral understanding, driving responsible usage across differing societal contexts and fostering cross-cultural digital trust and cooperation.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "Social Issues",
+        "target": "People's Values",
+        "type": "Communication",
+        "definition": "In the Maturity Period, pervasive emotional networks shift dialogues around ethical digital use, transforming user values to prioritize nurturing mindfulness and compassion. Platforms shepherd conscious interaction, enlightening users toward supportive community ecosystems, balancing digital connectivity with meaningful interpersonal growth and resilient emotional awareness.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "Social Issues",
+        "target": "Technology and Resources",
+        "type": "Organization",
+        "definition": "Organizations develop inclusive, AI-integrated ecosystems on smartphones that facilitate holistic mental wellness plans. Using diverse cultural empathy modules, they address the ethical implications of over-reliance on digital frameworks, promoting interdependent accountability and cultural sensitivity, reinforcing active personal ethical engagement in digital interactions across varied global contexts.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "People's Values",
+        "target": "Daily Spaces and User Experience",
+        "type": "Meaning Attribution",
+        "definition": "As smartphones become ethical companions, users attribute meaning by leveraging AI-driven moral guides, transforming personal spaces into reflection zones. This fosters proactive empathy-based actions, aligning individual interfaces with a collective moral consciousness, nurturing an experiential symbiosis between digital intuition and human judgments within virtual atmospheres.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "Technology and Resources",
+        "target": "Daily Spaces and User Experience",
+        "type": "Products/Services",
+        "definition": "Emotion-responsive smartphones act as wellness curators, offering mood-aligned experiences through dynamic interfaces and ambient settings. This technological leap enables personalized, serene interactions, fostering mindful, empathetic environments that fortify emotional intelligence, community solidarity, and a harmonious balance between human emotion and digital connectivity in everyday spaces.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "People's Values",
+        "target": "Institutions",
+        "type": "Habituation",
+        "definition": "In the Maturity Period, public values emphasizing transparency and social empathy transform habitual smartphone interactions into mandatory frameworks for augmented ethical literacy, driving institutional adoption of ethics instructive standards in education, governance, and media, thereby embedding moral reasoning deeply within the fabric of societal normativity.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "Technology and Resources",
+        "target": "Avant-garde Social Issues",
+        "type": "Paradigm",
+        "definition": "In the Maturity Period, emotion-responsive smartphones provoke social reflection, challenging users' dependency on digital empathy. This paradigm exposes questions on human intuition vs. AI-driven emotional support, pushing new discourse on fostering genuine interpersonal emotional intelligence in technology-enhanced community settings.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "Daily Spaces and User Experience",
+        "target": "Institutions",
+        "type": "Business Ecosystem",
+        "definition": "In the Maturity Period, the business ecosystem evolves, democratically linking stakeholders to facilitate emotional-economy symbiosis. Corporations leverage empathy analytics, offering context-aware ethical solutions, bolstering civic participation through micro-insight sharing, and fostering adaptive regulatory practices, inherently aligning technology use with community-driven values and fostering resilient societal coherence.",
+        "example": "Future Concept"
+      },
+      {
+        "source": "Daily Spaces and User Experience",
+        "target": "Avant-garde Social Issues",
+        "type": "Art (Social Criticism)",
+        "definition": "Artists create immersive AR experiences where users navigate ethical dilemmas mirrored against historical events. These dynamic visual narratives blend past and present, challenging over-dependence on smartphones to critique users' diminishing judgment and fostering a conscious intersection of cultural memory with digital ethical frameworks.",
+        "example": "Future Concept"
+      }
+    ]
+  }
+}
