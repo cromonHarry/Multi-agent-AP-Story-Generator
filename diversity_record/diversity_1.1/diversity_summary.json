@@ -1,0 +1,210 @@
+{
+  "config": {
+    "gpt_model": "gpt-4o-mini",
+    "keyword_count": 4,
+    "summary_word_count": 200,
+    "embedding_model": "text-embedding-3-small"
+  },
+  "results": [
+    {
+      "folder": "Bedtime_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.3894926217589535,
+        "avg_similarity": 0.6105073782410465,
+        "std_similarity": 0.06661348228682137,
+        "min_similarity": 0.34235160904750556,
+        "max_similarity": 0.8182651654781756,
+        "median_similarity": 0.6130736950162401
+      },
+      "summary": {
+        "diversity_score": 0.2227669980276461,
+        "avg_similarity": 0.7772330019723539,
+        "std_similarity": 0.039196587464598795,
+        "min_similarity": 0.6387886803869611,
+        "max_similarity": 0.9085382241101897,
+        "median_similarity": 0.779552740017673
+      }
+    },
+    {
+      "folder": "Coffee_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.3543881797059705,
+        "avg_similarity": 0.6456118202940295,
+        "std_similarity": 0.07087482903107847,
+        "min_similarity": 0.33055313334971215,
+        "max_similarity": 0.8615867914120592,
+        "median_similarity": 0.6512830918295974
+      },
+      "summary": {
+        "diversity_score": 0.1828771919143607,
+        "avg_similarity": 0.8171228080856393,
+        "std_similarity": 0.0313490246982825,
+        "min_similarity": 0.6934599150630256,
+        "max_similarity": 0.9034693712940156,
+        "median_similarity": 0.8200545251990907
+      }
+    },
+    {
+      "folder": "Dentist_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.39179854118363144,
+        "avg_similarity": 0.6082014588163686,
+        "std_similarity": 0.07445568861400662,
+        "min_similarity": 0.3112407459833662,
+        "max_similarity": 0.821127149242962,
+        "median_similarity": 0.6153084990170634
+      },
+      "summary": {
+        "diversity_score": 0.19696711536489997,
+        "avg_similarity": 0.8030328846351,
+        "std_similarity": 0.03202483460282204,
+        "min_similarity": 0.6656466367001459,
+        "max_similarity": 0.8952745022586323,
+        "median_similarity": 0.805485219957616
+      }
+    },
+    {
+      "folder": "Grocery_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.3991869012825069,
+        "avg_similarity": 0.6008130987174931,
+        "std_similarity": 0.07712517376510218,
+        "min_similarity": 0.34037448548259625,
+        "max_similarity": 0.8291096962643594,
+        "median_similarity": 0.6026225761633657
+      },
+      "summary": {
+        "diversity_score": 0.22219808834093357,
+        "avg_similarity": 0.7778019116590664,
+        "std_similarity": 0.0391284193409679,
+        "min_similarity": 0.6135593527751394,
+        "max_similarity": 0.8965199705960321,
+        "median_similarity": 0.7795644372739359
+      }
+    },
+    {
+      "folder": "Password_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.41943610466880243,
+        "avg_similarity": 0.5805638953311976,
+        "std_similarity": 0.07250586383222188,
+        "min_similarity": 0.34832313587307395,
+        "max_similarity": 0.8404253986394117,
+        "median_similarity": 0.5833875349530797
+      },
+      "summary": {
+        "diversity_score": 0.23869075891970915,
+        "avg_similarity": 0.7613092410802909,
+        "std_similarity": 0.03663385343236816,
+        "min_similarity": 0.6245707132130918,
+        "max_similarity": 0.8820017835504106,
+        "median_similarity": 0.7630885351190383
+      }
+    },
+    {
+      "folder": "Recycling_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.41819740449254383,
+        "avg_similarity": 0.5818025955074562,
+        "std_similarity": 0.08329684575984564,
+        "min_similarity": 0.2287891320241888,
+        "max_similarity": 0.8060865662203186,
+        "median_similarity": 0.592774905603764
+      },
+      "summary": {
+        "diversity_score": 0.21789785364696734,
+        "avg_similarity": 0.7821021463530327,
+        "std_similarity": 0.039722799931856075,
+        "min_similarity": 0.6050212894872621,
+        "max_similarity": 0.9025796225845317,
+        "median_similarity": 0.7844590405414857
+      }
+    },
+    {
+      "folder": "Smartphone_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.40394914467473375,
+        "avg_similarity": 0.5960508553252662,
+        "std_similarity": 0.07135112768192478,
+        "min_similarity": 0.3050557955278703,
+        "max_similarity": 0.8368023734619143,
+        "median_similarity": 0.5979624503939367
+      },
+      "summary": {
+        "diversity_score": 0.23392543273966682,
+        "avg_similarity": 0.7660745672603332,
+        "std_similarity": 0.04391108094189667,
+        "min_similarity": 0.5970983013563176,
+        "max_similarity": 0.9173142410484132,
+        "median_similarity": 0.7696224633722392
+      }
+    },
+    {
+      "folder": "Soccer_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.41043279281472256,
+        "avg_similarity": 0.5895672071852774,
+        "std_similarity": 0.0798821739747157,
+        "min_similarity": 0.32448846109694074,
+        "max_similarity": 0.832015305301834,
+        "median_similarity": 0.5913779864644133
+      },
+      "summary": {
+        "diversity_score": 0.1995404871852503,
+        "avg_similarity": 0.8004595128147497,
+        "std_similarity": 0.03420057705679043,
+        "min_similarity": 0.6807595349369665,
+        "max_similarity": 0.9007604697490672,
+        "median_similarity": 0.8015966495675233
+      }
+    },
+    {
+      "folder": "Stovetop_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.3559427775090477,
+        "avg_similarity": 0.6440572224909523,
+        "std_similarity": 0.06352794264908505,
+        "min_similarity": 0.36510166397514277,
+        "max_similarity": 0.8496257094509398,
+        "median_similarity": 0.6485906579662113
+      },
+      "summary": {
+        "diversity_score": 0.2072724195168384,
+        "avg_similarity": 0.7927275804831616,
+        "std_similarity": 0.043137414647204865,
+        "min_similarity": 0.6387354480273317,
+        "max_similarity": 0.9101195086241745,
+        "median_similarity": 0.7949593897415357
+      }
+    },
+    {
+      "folder": "Umbrella_Baseline",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.43219620284702376,
+        "avg_similarity": 0.5678037971529762,
+        "std_similarity": 0.08534808289079987,
+        "min_similarity": 0.24750543381550721,
+        "max_similarity": 0.8445726347418214,
+        "median_similarity": 0.5692663050099008
+      },
+      "summary": {
+        "diversity_score": 0.19442393738271158,
+        "avg_similarity": 0.8055760626172884,
+        "std_similarity": 0.04731854176170136,
+        "min_similarity": 0.5882671445307215,
+        "max_similarity": 0.9207234167472094,
+        "median_similarity": 0.810651211647321
+      }
+    }
+  ]
+}

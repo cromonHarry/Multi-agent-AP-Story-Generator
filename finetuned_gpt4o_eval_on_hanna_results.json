@@ -1,0 +1,2891 @@
+[
+  {
+    "input_story_snippet": "Writing Prompt:\nThis picture gets more horrific the longer I look at it. The artist has n't given it...",
+    "gold_scores": {
+      "relevance": 3.3,
+      "coherence": 4.0,
+      "empathy": 3.3,
+      "surprise": 2.7,
+      "engagement": 4.0,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.2,
+      "complexity": 2.57,
+      "empathy": 2.2,
+      "engagement": 2.9,
+      "relevance": 3.1,
+      "surprise": 2.2
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 3.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA scientific study proves that all humans have been breathing a mind-altering gas fr...",
+    "gold_scores": {
+      "relevance": 4.7,
+      "coherence": 4.7,
+      "empathy": 4.0,
+      "surprise": 4.3,
+      "engagement": 4.0,
+      "complexity": 4.3
+    },
+    "pred_scores_avg": {
+      "coherence": 4.7,
+      "complexity": 4.3,
+      "empathy": 4.3,
+      "engagement": 4.3,
+      "relevance": 4.0,
+      "surprise": 4.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 4.0\nCoherence: 4.7\nEmpathy: 4.3\nSurprise: 4.0\nEngagement: 4.3\nComplexity: 4.3",
+        "Relevance: 4.0\nCoherence: 4.7\nEmpathy: 4.3\nSurprise: 4.0\nEngagement: 4.3\nComplexity: 4.3",
+        "Relevance: 4.0\nCoherence: 4.7\nEmpathy: 4.3\nSurprise: 4.0\nEngagement: 4.3\nComplexity: 4.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\n“I 've had my last meal 13 times, final words 29 times, and been to my funeral 9 tim...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.3,
+      "empathy": 3.3,
+      "surprise": 2.7,
+      "engagement": 2.7,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.3,
+      "engagement": 2.3,
+      "relevance": 2.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nShe always started feeling it when she was two landings down.\n\nStory:\nHer planet see...",
+    "gold_scores": {
+      "relevance": 1.7,
+      "coherence": 2.7,
+      "empathy": 1.7,
+      "surprise": 1.7,
+      "engagement": 1.7,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.0,
+      "empathy": 1.7,
+      "engagement": 2.0,
+      "relevance": 1.7,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.7\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 1.7\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 1.7\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou are a guardian angel. You did your job too well once, and since then your human ...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.3,
+      "empathy": 1.0,
+      "surprise": 1.7,
+      "engagement": 3.0,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 1.7,
+      "empathy": 2.0,
+      "engagement": 2.0,
+      "relevance": 3.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 3.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 3.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nwrite a scary story that will make me never want to use stairs again.\n\nStory:\nBefore...",
+    "gold_scores": {
+      "relevance": 1.0,
+      "coherence": 3.3,
+      "empathy": 2.3,
+      "surprise": 1.7,
+      "engagement": 2.3,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.0,
+      "engagement": 2.0,
+      "relevance": 1.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA magical mirror shows your reflection and your future soulmate. You only see your r...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 2.0,
+      "empathy": 1.7,
+      "surprise": 1.7,
+      "engagement": 2.0,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.1,
+      "complexity": 1.1,
+      "empathy": 1.7,
+      "engagement": 1.43,
+      "relevance": 2.8,
+      "surprise": 1.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 2.0\nEmpathy: 1.7\nSurprise: 1.0\nEngagement: 1.3\nComplexity: 1.0",
+        "Relevance: 2.7\nCoherence: 2.0\nEmpathy: 1.7\nSurprise: 1.0\nEngagement: 1.3\nComplexity: 1.0",
+        "Relevance: 2.7\nCoherence: 2.3\nEmpathy: 1.7\nSurprise: 1.0\nEngagement: 1.7\nComplexity: 1.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite your heart onto your sleeve, Reddit.\n\nStory:\n“Malvina ?” “Yes, love ?” Answers...",
+    "gold_scores": {
+      "relevance": 4.7,
+      "coherence": 4.7,
+      "empathy": 3.7,
+      "surprise": 3.0,
+      "engagement": 4.0,
+      "complexity": 4.0
+    },
+    "pred_scores_avg": {
+      "coherence": 4.3,
+      "complexity": 3.7,
+      "empathy": 3.7,
+      "engagement": 4.0,
+      "relevance": 3.7,
+      "surprise": 3.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.7\nCoherence: 4.3\nEmpathy: 3.7\nSurprise: 3.0\nEngagement: 4.0\nComplexity: 3.7",
+        "Relevance: 3.7\nCoherence: 4.3\nEmpathy: 3.7\nSurprise: 3.0\nEngagement: 4.0\nComplexity: 3.7",
+        "Relevance: 3.7\nCoherence: 4.3\nEmpathy: 3.7\nSurprise: 3.0\nEngagement: 4.0\nComplexity: 3.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA genius serial killer who has been killing successfully for a decade. With one weak...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 3.0,
+      "empathy": 2.0,
+      "surprise": 1.3,
+      "engagement": 2.3,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 1.43,
+      "empathy": 1.7,
+      "engagement": 1.7,
+      "relevance": 1.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 1.7\nComplexity: 1.3",
+        "Relevance: 1.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 1.7\nComplexity: 1.7",
+        "Relevance: 1.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 1.7\nComplexity: 1.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA supervillain is depressed. To cheer him/her up, the superhero lets the supervillai...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.7,
+      "empathy": 2.7,
+      "surprise": 2.7,
+      "engagement": 2.3,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.1,
+      "empathy": 2.2,
+      "engagement": 2.3,
+      "relevance": 1.7,
+      "surprise": 1.9
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 1.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 1.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA hardcore doomsday prepper is living through the apocalypse ... But it 's a kind he...",
+    "gold_scores": {
+      "relevance": 1.3,
+      "coherence": 2.7,
+      "empathy": 2.0,
+      "surprise": 1.7,
+      "engagement": 2.0,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 1.7,
+      "empathy": 1.7,
+      "engagement": 2.0,
+      "relevance": 2.3,
+      "surprise": 1.57
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.3\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nOne normal day you see a mouse pointer move across your field of vision, right click...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.0,
+      "empathy": 2.7,
+      "surprise": 2.0,
+      "engagement": 3.0,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 1.7,
+      "engagement": 2.0,
+      "relevance": 2.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nIn Soviet Russia, ghosts fear you.\n\nStory:\nThen you come for them. While out of a li...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 2.7,
+      "empathy": 2.0,
+      "surprise": 1.7,
+      "engagement": 1.7,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 1.9,
+      "engagement": 2.0,
+      "relevance": 2.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nAfter a bad breakup, you take Reddit 's famous advice. Lawyer up, hit the gym, delet...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.0,
+      "empathy": 3.0,
+      "surprise": 2.7,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 1.7,
+      "engagement": 2.0,
+      "relevance": 2.0,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 2.0\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 2.0\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 2.0\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite a story beginning with: “Are you buying that or what ?”\n\nStory:\nI am not sure ...",
+    "gold_scores": {
+      "relevance": 1.0,
+      "coherence": 2.7,
+      "empathy": 1.7,
+      "surprise": 1.7,
+      "engagement": 1.7,
+      "complexity": 1.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 1.3,
+      "empathy": 1.7,
+      "engagement": 1.7,
+      "relevance": 1.0,
+      "surprise": 1.2
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.3\nEngagement: 1.7\nComplexity: 1.3",
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.3\nEngagement: 1.7\nComplexity: 1.3",
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.0\nEngagement: 1.7\nComplexity: 1.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nAliens come to Earth in hoping to wipe us out and take over the planet, but are hono...",
+    "gold_scores": {
+      "relevance": 4.3,
+      "coherence": 4.0,
+      "empathy": 2.0,
+      "surprise": 2.7,
+      "engagement": 3.3,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.7,
+      "empathy": 2.3,
+      "engagement": 3.0,
+      "relevance": 4.0,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 4.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 4.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 4.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou discover a grand hall filled with legendary weapons like Mjonir and Excalibur. E...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.0,
+      "empathy": 2.3,
+      "surprise": 1.7,
+      "engagement": 2.7,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.7,
+      "complexity": 3.0,
+      "empathy": 2.3,
+      "engagement": 3.3,
+      "relevance": 3.7,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.7\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.0",
+        "Relevance: 3.7\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.0",
+        "Relevance: 3.7\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite about something that is disgusting or ugly in such a way that it becomes somet...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.7,
+      "empathy": 3.3,
+      "surprise": 3.3,
+      "engagement": 4.0,
+      "complexity": 4.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.0,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 2.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA letter to your soul mate but its ten years until you meet them.\n\nStory:\nYour famil...",
+    "gold_scores": {
+      "relevance": 3.3,
+      "coherence": 3.7,
+      "empathy": 3.0,
+      "surprise": 1.7,
+      "engagement": 3.0,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.3,
+      "engagement": 2.3,
+      "relevance": 2.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou are scrolling through r/WritingPrompts, when this very prompt catches your atten...",
+    "gold_scores": {
+      "relevance": 3.3,
+      "coherence": 2.7,
+      "empathy": 1.7,
+      "surprise": 1.3,
+      "engagement": 2.7,
+      "complexity": 1.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.7,
+      "complexity": 2.3,
+      "empathy": 2.3,
+      "engagement": 3.0,
+      "relevance": 3.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 3.0\nComplexity: 2.3",
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 3.0\nComplexity: 2.3",
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 3.0\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nGoogle image finally opens face recognition to the public. For fun you submit a pict...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.7,
+      "empathy": 3.3,
+      "surprise": 2.7,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.0,
+      "engagement": 2.0,
+      "relevance": 2.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite a story about an elderly wizard and his young female apprentice.\n\nStory:\n*bob*...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.3,
+      "empathy": 2.3,
+      "surprise": 1.3,
+      "engagement": 2.0,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 1.43,
+      "empathy": 2.0,
+      "engagement": 2.0,
+      "relevance": 1.8,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.7\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.3",
+        "Relevance: 1.7\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.3",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWhen you die the afterlife is an arena where you face every insect and animal you ki...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.7,
+      "empathy": 1.7,
+      "surprise": 2.3,
+      "engagement": 2.7,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 2.1,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWhen you die the afterlife is an arena where you face every insect and animal you ki...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 2.7,
+      "empathy": 2.3,
+      "surprise": 2.0,
+      "engagement": 2.7,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.8,
+      "complexity": 1.7,
+      "empathy": 2.0,
+      "engagement": 2.0,
+      "relevance": 3.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 3.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 3.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nEngland decidedly does n't like the way the United States of America is progressing ...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 2.0,
+      "empathy": 1.3,
+      "surprise": 1.0,
+      "engagement": 1.7,
+      "complexity": 1.3
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 1.3,
+      "empathy": 2.0,
+      "engagement": 2.0,
+      "relevance": 3.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.3",
+        "Relevance: 3.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.3",
+        "Relevance: 3.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWhen a new president is elected, they are given a special security briefing. In real...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 4.0,
+      "empathy": 2.3,
+      "surprise": 2.7,
+      "engagement": 3.3,
+      "complexity": 3.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.7,
+      "empathy": 2.0,
+      "engagement": 2.7,
+      "relevance": 3.0,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nAn immortal couple have been seen throughout recorded history, write an account of t...",
+    "gold_scores": {
+      "relevance": 1.7,
+      "coherence": 2.3,
+      "empathy": 1.7,
+      "surprise": 1.7,
+      "engagement": 1.3,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.9,
+      "complexity": 2.1,
+      "empathy": 2.0,
+      "engagement": 2.2,
+      "relevance": 2.7,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite a horror story with no gore or death, not even implied.\n\nStory:\n' The Knight s...",
+    "gold_scores": {
+      "relevance": 3.7,
+      "coherence": 3.7,
+      "empathy": 3.0,
+      "surprise": 3.3,
+      "engagement": 4.0,
+      "complexity": 3.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 3.0,
+      "empathy": 2.3,
+      "engagement": 3.0,
+      "relevance": 3.0,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 3.0",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 3.0",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 3.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nMichael, a 15 year old Call of Duty player, realizes the greatest trash-talking oppo...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 3.7,
+      "empathy": 2.3,
+      "surprise": 2.3,
+      "engagement": 2.7,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 2.3,
+      "complexity": 1.0,
+      "empathy": 1.7,
+      "engagement": 1.3,
+      "relevance": 1.7,
+      "surprise": 1.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.7\nCoherence: 2.3\nEmpathy: 1.7\nSurprise: 1.0\nEngagement: 1.3\nComplexity: 1.0",
+        "Relevance: 1.7\nCoherence: 2.3\nEmpathy: 1.7\nSurprise: 1.0\nEngagement: 1.3\nComplexity: 1.0",
+        "Relevance: 1.7\nCoherence: 2.3\nEmpathy: 1.7\nSurprise: 1.0\nEngagement: 1.3\nComplexity: 1.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nMichael, a 15 year old Call of Duty player, realizes the greatest trash-talking oppo...",
+    "gold_scores": {
+      "relevance": 3.3,
+      "coherence": 3.3,
+      "empathy": 1.7,
+      "surprise": 2.3,
+      "engagement": 3.3,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.0,
+      "empathy": 1.7,
+      "engagement": 2.3,
+      "relevance": 2.7,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nCivilization has fallen, but brave treasure hunters have heard the legend of Ft. Kno...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 2.3,
+      "empathy": 1.7,
+      "surprise": 1.7,
+      "engagement": 2.0,
+      "complexity": 1.3
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 1.7,
+      "engagement": 2.0,
+      "relevance": 2.7,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou 're not feeling quite like yourself after that organ transplant\n\nStory:\n,'she sa...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 3.7,
+      "empathy": 3.3,
+      "surprise": 2.3,
+      "engagement": 3.3,
+      "complexity": 3.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.7,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 2.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou are part of an Elite Bodyguard team hired to protect a wealthy business mogul fr...",
+    "gold_scores": {
+      "relevance": 3.7,
+      "coherence": 4.7,
+      "empathy": 3.3,
+      "surprise": 3.7,
+      "engagement": 4.3,
+      "complexity": 3.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.7,
+      "empathy": 2.3,
+      "engagement": 3.0,
+      "relevance": 3.0,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nCivilization has fallen, but brave treasure hunters have heard the legend of Ft. Kno...",
+    "gold_scores": {
+      "relevance": 5.0,
+      "coherence": 5.0,
+      "empathy": 2.0,
+      "surprise": 4.0,
+      "engagement": 5.0,
+      "complexity": 4.7
+    },
+    "pred_scores_avg": {
+      "coherence": 4.7,
+      "complexity": 3.7,
+      "empathy": 3.1,
+      "engagement": 4.0,
+      "relevance": 4.0,
+      "surprise": 3.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 4.0\nCoherence: 4.7\nEmpathy: 3.3\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 3.7",
+        "Relevance: 4.0\nCoherence: 4.7\nEmpathy: 3.0\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 3.7",
+        "Relevance: 4.0\nCoherence: 4.7\nEmpathy: 3.0\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 3.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nfire is a manifesting force that can only be put out through hand to hand combat. Yo...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 2.7,
+      "empathy": 1.7,
+      "surprise": 1.3,
+      "engagement": 2.3,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 1.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 1.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 1.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nAfter brushing your teeth in the morning you go downstairs to fry an egg, but when y...",
+    "gold_scores": {
+      "relevance": 1.0,
+      "coherence": 3.3,
+      "empathy": 2.3,
+      "surprise": 1.7,
+      "engagement": 2.7,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.0,
+      "empathy": 2.3,
+      "engagement": 2.43,
+      "relevance": 1.0,
+      "surprise": 2.2
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 1.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.0",
+        "Relevance: 1.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA supervillain is depressed. To cheer him/her up, the superhero lets the supervillai...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 4.7,
+      "empathy": 1.7,
+      "surprise": 2.3,
+      "engagement": 3.7,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.3,
+      "empathy": 3.0,
+      "engagement": 3.0,
+      "relevance": 2.0,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 3.3\nEmpathy: 3.0\nSurprise: 2.0\nEngagement: 3.0\nComplexity: 2.3",
+        "Relevance: 2.0\nCoherence: 3.3\nEmpathy: 3.0\nSurprise: 2.0\nEngagement: 3.0\nComplexity: 2.3",
+        "Relevance: 2.0\nCoherence: 3.3\nEmpathy: 3.0\nSurprise: 2.0\nEngagement: 3.0\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nThe Little Black Box\n\nStory:\nA tiny black box in my pocket. I, on a side street mayb...",
+    "gold_scores": {
+      "relevance": 3.7,
+      "coherence": 3.7,
+      "empathy": 2.3,
+      "surprise": 2.3,
+      "engagement": 3.7,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.7,
+      "complexity": 2.7,
+      "empathy": 3.0,
+      "engagement": 3.3,
+      "relevance": 4.0,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 4.0\nCoherence: 3.7\nEmpathy: 3.0\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 2.7",
+        "Relevance: 4.0\nCoherence: 3.7\nEmpathy: 3.0\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 2.7",
+        "Relevance: 4.0\nCoherence: 3.7\nEmpathy: 3.0\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite a horror story with no gore or death, not even implied.\n\nStory:\nShe was warm a...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.7,
+      "empathy": 4.0,
+      "surprise": 2.7,
+      "engagement": 3.7,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.3,
+      "empathy": 2.7,
+      "engagement": 2.7,
+      "relevance": 2.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nIt suddenly becomes possible to gain XP and level up in the real world, but you can ...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.3,
+      "empathy": 2.0,
+      "surprise": 1.3,
+      "engagement": 3.0,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.3,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 3.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWhen a new president is elected, they are given a special security briefing. In real...",
+    "gold_scores": {
+      "relevance": 1.3,
+      "coherence": 3.0,
+      "empathy": 2.3,
+      "surprise": 2.0,
+      "engagement": 3.0,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.7,
+      "empathy": 2.7,
+      "engagement": 2.7,
+      "relevance": 1.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.3\nCoherence: 3.3\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 1.3\nCoherence: 3.3\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 1.3\nCoherence: 3.3\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nOn the fourth floor of your elementary school there is n't a swimming pool, there is...",
+    "gold_scores": {
+      "relevance": 1.0,
+      "coherence": 2.7,
+      "empathy": 1.7,
+      "surprise": 2.3,
+      "engagement": 2.3,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 1.7,
+      "empathy": 1.7,
+      "engagement": 2.0,
+      "relevance": 1.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.3\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 1.3\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 1.3\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou 're not feeling quite like yourself after that organ transplant\n\nStory:\nI get to...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 3.7,
+      "empathy": 2.7,
+      "surprise": 2.0,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.7,
+      "engagement": 2.7,
+      "relevance": 3.0,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite a story in which a character slowly loses his empathy and humanity because of ...",
+    "gold_scores": {
+      "relevance": 1.3,
+      "coherence": 3.0,
+      "empathy": 2.0,
+      "surprise": 2.0,
+      "engagement": 2.3,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.43,
+      "engagement": 2.7,
+      "relevance": 2.7,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA new drug let 's you live a lifetime in one dream\n\nStory:\nMarcus jumped out of the ...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 3.3,
+      "empathy": 2.7,
+      "surprise": 2.3,
+      "engagement": 3.7,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 2.7,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nThe evil overlord has killed innocent people, burned cities, and actively suppresses...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.7,
+      "empathy": 2.3,
+      "surprise": 2.0,
+      "engagement": 3.3,
+      "complexity": 3.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.7,
+      "complexity": 3.3,
+      "empathy": 2.57,
+      "engagement": 3.3,
+      "relevance": 3.3,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.3",
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.3",
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nIn an alternate universe, gunpowder was never invented. What does warfare look like?...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.0,
+      "empathy": 2.0,
+      "surprise": 2.7,
+      "engagement": 3.0,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.7,
+      "empathy": 2.3,
+      "engagement": 3.0,
+      "relevance": 2.7,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 2.7\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 2.7\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA 4-D star collides with Earth, causing it to “unroll” into a seemingly infinite pla...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 3.3,
+      "empathy": 2.7,
+      "surprise": 2.3,
+      "engagement": 2.7,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.7,
+      "empathy": 2.3,
+      "engagement": 3.0,
+      "relevance": 2.3,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\n[ RF ] During a bank robbery, the criminals allow themselves to be captured. Authori...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 2.3,
+      "empathy": 1.7,
+      "surprise": 1.7,
+      "engagement": 2.3,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.3,
+      "engagement": 2.3,
+      "relevance": 2.0,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\n“I 've had my last meal 13 times, final words 29 times, and been to my funeral 9 tim...",
+    "gold_scores": {
+      "relevance": 1.7,
+      "coherence": 2.3,
+      "empathy": 2.7,
+      "surprise": 1.7,
+      "engagement": 1.7,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.1,
+      "empathy": 2.3,
+      "engagement": 2.3,
+      "relevance": 2.7,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nThe evil overlord has killed innocent people, burned cities, and actively suppresses...",
+    "gold_scores": {
+      "relevance": 1.3,
+      "coherence": 3.3,
+      "empathy": 2.3,
+      "surprise": 2.7,
+      "engagement": 2.7,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.1,
+      "empathy": 1.9,
+      "engagement": 2.3,
+      "relevance": 2.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou have an unique ability. When wearing someone else 's clothes, you change into th...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.0,
+      "empathy": 2.0,
+      "surprise": 2.3,
+      "engagement": 2.3,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.1,
+      "complexity": 2.7,
+      "empathy": 2.1,
+      "engagement": 2.8,
+      "relevance": 2.0,
+      "surprise": 2.1
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 2.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA man with a happy family and great life, comes across a genie who grants him three ...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.0,
+      "empathy": 3.0,
+      "surprise": 2.7,
+      "engagement": 3.0,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.7,
+      "engagement": 2.7,
+      "relevance": 2.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nAfter brushing your teeth in the morning you go downstairs to fry an egg, but when y...",
+    "gold_scores": {
+      "relevance": 3.3,
+      "coherence": 3.7,
+      "empathy": 2.7,
+      "surprise": 3.0,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.7,
+      "empathy": 2.0,
+      "engagement": 2.7,
+      "relevance": 3.0,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA hardcore doomsday prepper is living through the apocalypse ... But it 's a kind he...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 2.7,
+      "empathy": 2.0,
+      "surprise": 2.0,
+      "engagement": 2.3,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.3,
+      "engagement": 2.2,
+      "relevance": 2.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou have become death, destroyer of worlds.\n\nStory:\nYou look up to see all of them i...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 2.7,
+      "empathy": 3.0,
+      "surprise": 2.0,
+      "engagement": 2.7,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.7,
+      "complexity": 3.0,
+      "empathy": 2.7,
+      "engagement": 3.3,
+      "relevance": 3.3,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.0",
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.0",
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite a story in which a character slowly loses his empathy and humanity because of ...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 3.3,
+      "empathy": 3.0,
+      "surprise": 2.3,
+      "engagement": 2.3,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.3,
+      "engagement": 2.3,
+      "relevance": 2.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nPlease tell me about one of your fonder memories.\n\nStory:\n''The knight asked his gua...",
+    "gold_scores": {
+      "relevance": 3.7,
+      "coherence": 3.7,
+      "empathy": 1.7,
+      "surprise": 2.0,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 2.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nMark Zuckerberg decides to end Facebook. He 's going to pay users $ 1 for every “Lik...",
+    "gold_scores": {
+      "relevance": 5.0,
+      "coherence": 5.0,
+      "empathy": 3.7,
+      "surprise": 3.7,
+      "engagement": 4.3,
+      "complexity": 4.3
+    },
+    "pred_scores_avg": {
+      "coherence": 4.7,
+      "complexity": 4.0,
+      "empathy": 3.0,
+      "engagement": 4.0,
+      "relevance": 4.7,
+      "surprise": 3.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 4.7\nCoherence: 4.7\nEmpathy: 3.0\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 4.0",
+        "Relevance: 4.7\nCoherence: 4.7\nEmpathy: 3.0\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 4.0",
+        "Relevance: 4.7\nCoherence: 4.7\nEmpathy: 3.0\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 4.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nMichael, a 15 year old Call of Duty player, realizes the greatest trash-talking oppo...",
+    "gold_scores": {
+      "relevance": 4.3,
+      "coherence": 3.3,
+      "empathy": 1.3,
+      "surprise": 1.3,
+      "engagement": 2.7,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.0,
+      "empathy": 1.7,
+      "engagement": 2.3,
+      "relevance": 3.3,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 2.3\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 3.3\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 2.3\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 3.3\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 2.3\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nwrite a scary story that will make me never want to use stairs again.\n\nStory:\n“Where...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.3,
+      "empathy": 3.0,
+      "surprise": 2.3,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 2.0,
+      "surprise": 2.1
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nHitchhiker\n\nStory:\nChuck was the University student. He loved many things in life, b...",
+    "gold_scores": {
+      "relevance": 1.3,
+      "coherence": 3.3,
+      "empathy": 3.7,
+      "surprise": 4.0,
+      "engagement": 3.7,
+      "complexity": 3.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.57,
+      "complexity": 2.3,
+      "empathy": 2.3,
+      "engagement": 2.3,
+      "relevance": 1.57,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 1.7\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 1.7\nCoherence: 2.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA muggle buys a magic shop from a wizard and must now cater the magic and non magic ...",
+    "gold_scores": {
+      "relevance": 1.3,
+      "coherence": 1.7,
+      "empathy": 1.3,
+      "surprise": 1.0,
+      "engagement": 2.0,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.3,
+      "complexity": 1.7,
+      "empathy": 2.0,
+      "engagement": 2.0,
+      "relevance": 1.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.3\nCoherence: 2.3\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 1.3\nCoherence: 2.3\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 1.3\nCoherence: 2.3\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nGoogle image finally opens face recognition to the public. For fun you submit a pict...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 4.0,
+      "empathy": 2.3,
+      "surprise": 2.3,
+      "engagement": 3.3,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.3,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 2.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou are the owner of a small restaurant that is struggling to stay open. Suddenly, y...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 2.7,
+      "empathy": 1.3,
+      "surprise": 1.7,
+      "engagement": 2.0,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.0,
+      "engagement": 2.0,
+      "relevance": 2.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nThe evil overlord has killed innocent people, burned cities, and actively suppresses...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.7,
+      "empathy": 2.3,
+      "surprise": 2.7,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 1.3,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.3\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 1.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.3\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 1.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.3\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nGoogle search engine always was alive. They reset the server every day to prevent it...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.7,
+      "empathy": 2.3,
+      "surprise": 1.7,
+      "engagement": 3.0,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 3.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite a story in which a character slowly loses his empathy and humanity because of ...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.3,
+      "empathy": 2.3,
+      "surprise": 1.7,
+      "engagement": 2.7,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 2.7,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nAll you hear is a dripping noise.\n\nStory:\nwhat does it mean? because i just lost a b...",
+    "gold_scores": {
+      "relevance": 1.3,
+      "coherence": 2.3,
+      "empathy": 1.7,
+      "surprise": 1.7,
+      "engagement": 2.0,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.0,
+      "empathy": 1.7,
+      "engagement": 2.0,
+      "relevance": 1.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.0\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 1.0\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 1.0\nCoherence: 3.0\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA genius serial killer who has been killing successfully for a decade. With one weak...",
+    "gold_scores": {
+      "relevance": 3.3,
+      "coherence": 2.7,
+      "empathy": 2.0,
+      "surprise": 2.0,
+      "engagement": 2.7,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 2.7,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nEveryone has a reaper. The further away it is, the longer you have left to live. Eve...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.7,
+      "empathy": 2.7,
+      "surprise": 2.7,
+      "engagement": 3.3,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 1.3,
+      "empathy": 2.0,
+      "engagement": 1.7,
+      "relevance": 1.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 1.7\nComplexity: 1.3",
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 1.7\nComplexity: 1.3",
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 1.7\nComplexity: 1.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nThe monster under your bed is protecting you from something much worse.\n\nStory:\nHe w...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 2.3,
+      "empathy": 2.7,
+      "surprise": 2.0,
+      "engagement": 2.7,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.57,
+      "empathy": 2.7,
+      "engagement": 2.7,
+      "relevance": 2.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nIn an alternate universe, gunpowder was never invented. What does warfare look like?...",
+    "gold_scores": {
+      "relevance": 4.0,
+      "coherence": 4.3,
+      "empathy": 4.0,
+      "surprise": 3.7,
+      "engagement": 4.0,
+      "complexity": 4.0
+    },
+    "pred_scores_avg": {
+      "coherence": 4.2,
+      "complexity": 3.7,
+      "empathy": 3.3,
+      "engagement": 3.9,
+      "relevance": 3.57,
+      "surprise": 3.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.7\nCoherence: 4.3\nEmpathy: 3.3\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 3.7",
+        "Relevance: 3.7\nCoherence: 4.3\nEmpathy: 3.3\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 3.7",
+        "Relevance: 3.3\nCoherence: 4.0\nEmpathy: 3.3\nSurprise: 3.3\nEngagement: 3.7\nComplexity: 3.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nCivilization has fallen, but brave treasure hunters have heard the legend of Ft. Kno...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.0,
+      "empathy": 2.0,
+      "surprise": 1.3,
+      "engagement": 2.0,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.0,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 2.7,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA true personal story that makes the reader feel sonder ( the realization that each ...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.0,
+      "empathy": 2.0,
+      "surprise": 1.7,
+      "engagement": 2.3,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.0,
+      "empathy": 2.3,
+      "engagement": 2.3,
+      "relevance": 2.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou are a guardian angel. You did your job too well once, and since then your human ...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 2.7,
+      "empathy": 1.3,
+      "surprise": 2.0,
+      "engagement": 1.7,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.3,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 3.3,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 3.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 3.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA genius serial killer who has been killing successfully for a decade. With one weak...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 2.7,
+      "empathy": 2.0,
+      "surprise": 2.3,
+      "engagement": 3.0,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.0,
+      "engagement": 2.43,
+      "relevance": 2.7,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nThis picture gets more horrific the longer I look at it. The artist has n't given it...",
+    "gold_scores": {
+      "relevance": 1.7,
+      "coherence": 1.3,
+      "empathy": 3.0,
+      "surprise": 1.0,
+      "engagement": 1.7,
+      "complexity": 1.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.0,
+      "complexity": 1.0,
+      "empathy": 2.3,
+      "engagement": 1.8,
+      "relevance": 2.3,
+      "surprise": 1.23
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 2.0\nEmpathy: 2.3\nSurprise: 1.0\nEngagement: 1.7\nComplexity: 1.0",
+        "Relevance: 2.3\nCoherence: 2.0\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.0",
+        "Relevance: 2.3\nCoherence: 2.0\nEmpathy: 2.3\nSurprise: 1.0\nEngagement: 1.7\nComplexity: 1.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou 've been best friends with Death your entire life. When you 're about to become ...",
+    "gold_scores": {
+      "relevance": 3.7,
+      "coherence": 4.0,
+      "empathy": 3.3,
+      "surprise": 2.3,
+      "engagement": 3.0,
+      "complexity": 3.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.7,
+      "complexity": 2.8,
+      "empathy": 2.7,
+      "engagement": 3.1,
+      "relevance": 4.0,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 4.0\nCoherence: 3.7\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 3.0",
+        "Relevance: 4.0\nCoherence: 3.7\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 4.0\nCoherence: 3.7\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nThe evil overlord has killed innocent people, burned cities, and actively suppresses...",
+    "gold_scores": {
+      "relevance": 5.0,
+      "coherence": 5.0,
+      "empathy": 3.0,
+      "surprise": 4.0,
+      "engagement": 4.7,
+      "complexity": 4.3
+    },
+    "pred_scores_avg": {
+      "coherence": 5.0,
+      "complexity": 4.57,
+      "empathy": 4.0,
+      "engagement": 4.57,
+      "relevance": 5.0,
+      "surprise": 3.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 5.0\nCoherence: 5.0\nEmpathy: 4.0\nSurprise: 3.7\nEngagement: 4.7\nComplexity: 4.7",
+        "Relevance: 5.0\nCoherence: 5.0\nEmpathy: 4.0\nSurprise: 3.7\nEngagement: 4.7\nComplexity: 4.7",
+        "Relevance: 5.0\nCoherence: 5.0\nEmpathy: 4.0\nSurprise: 3.7\nEngagement: 4.3\nComplexity: 4.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nfire is a manifesting force that can only be put out through hand to hand combat. Yo...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 2.3,
+      "empathy": 2.3,
+      "surprise": 1.7,
+      "engagement": 2.3,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.7,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 3.0,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nTwo wounded soldiers from opposing sides of the war find themselves in the care of t...",
+    "gold_scores": {
+      "relevance": 3.7,
+      "coherence": 3.7,
+      "empathy": 3.0,
+      "surprise": 2.3,
+      "engagement": 3.3,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.0,
+      "empathy": 2.3,
+      "engagement": 2.3,
+      "relevance": 3.0,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 3.0\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou live in a world where people 's shadows show who they truly are at their core. S...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.0,
+      "empathy": 2.0,
+      "surprise": 1.7,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.3,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 2.7,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nAfter a bad breakup, you take Reddit 's famous advice. Lawyer up, hit the gym, delet...",
+    "gold_scores": {
+      "relevance": 3.3,
+      "coherence": 3.7,
+      "empathy": 2.7,
+      "surprise": 2.0,
+      "engagement": 3.7,
+      "complexity": 3.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.7,
+      "empathy": 2.3,
+      "engagement": 2.7,
+      "relevance": 3.0,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 3.0\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou possess an ability to turn off one or more of your senses to heighten the others...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 2.0,
+      "empathy": 1.0,
+      "surprise": 1.0,
+      "engagement": 1.7,
+      "complexity": 1.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 2.0,
+      "engagement": 2.0,
+      "relevance": 3.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 3.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 3.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWhen a new president is elected, they are given a special security briefing. In real...",
+    "gold_scores": {
+      "relevance": 5.0,
+      "coherence": 4.7,
+      "empathy": 2.0,
+      "surprise": 3.3,
+      "engagement": 4.0,
+      "complexity": 3.7
+    },
+    "pred_scores_avg": {
+      "coherence": 4.0,
+      "complexity": 2.7,
+      "empathy": 2.1,
+      "engagement": 3.3,
+      "relevance": 3.7,
+      "surprise": 3.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.7\nCoherence: 4.0\nEmpathy: 2.0\nSurprise: 3.0\nEngagement: 3.3\nComplexity: 2.7",
+        "Relevance: 3.7\nCoherence: 4.0\nEmpathy: 2.0\nSurprise: 3.0\nEngagement: 3.3\nComplexity: 2.7",
+        "Relevance: 3.7\nCoherence: 4.0\nEmpathy: 2.3\nSurprise: 3.0\nEngagement: 3.3\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nPlease tell me about one of your fonder memories.\n\nStory:\nMy wife and I were the str...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 2.7,
+      "empathy": 3.0,
+      "surprise": 3.3,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.7,
+      "engagement": 2.7,
+      "relevance": 2.7,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.7\nSurprise: 2.3\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nOn the fourth floor of your elementary school there is n't a swimming pool, there is...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.3,
+      "empathy": 1.7,
+      "surprise": 1.7,
+      "engagement": 2.7,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 2.7,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou are a immortal during the zombie apocalypse, During the apocalypse the zombies i...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.0,
+      "empathy": 2.7,
+      "surprise": 2.3,
+      "engagement": 2.7,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.7,
+      "complexity": 2.7,
+      "empathy": 2.3,
+      "engagement": 3.1,
+      "relevance": 3.3,
+      "surprise": 2.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7",
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.3\nComplexity: 2.7",
+        "Relevance: 3.3\nCoherence: 3.7\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite a rearrangeable story. Write two or more paragraphs that can be read in any or...",
+    "gold_scores": {
+      "relevance": 1.0,
+      "coherence": 2.7,
+      "empathy": 1.7,
+      "surprise": 1.0,
+      "engagement": 1.0,
+      "complexity": 1.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.0,
+      "complexity": 1.0,
+      "empathy": 2.0,
+      "engagement": 1.3,
+      "relevance": 1.7,
+      "surprise": 1.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.7\nCoherence: 2.0\nEmpathy: 2.0\nSurprise: 1.0\nEngagement: 1.3\nComplexity: 1.0",
+        "Relevance: 1.7\nCoherence: 2.0\nEmpathy: 2.0\nSurprise: 1.0\nEngagement: 1.3\nComplexity: 1.0",
+        "Relevance: 1.7\nCoherence: 2.0\nEmpathy: 2.0\nSurprise: 1.0\nEngagement: 1.3\nComplexity: 1.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nAn immortal couple have been seen throughout recorded history, write an account of t...",
+    "gold_scores": {
+      "relevance": 1.3,
+      "coherence": 2.7,
+      "empathy": 1.0,
+      "surprise": 1.0,
+      "engagement": 1.3,
+      "complexity": 1.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.0,
+      "complexity": 1.0,
+      "empathy": 1.0,
+      "engagement": 1.0,
+      "relevance": 1.0,
+      "surprise": 1.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.0\nCoherence: 2.0\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 1.0\nCoherence: 2.0\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 1.0\nCoherence: 2.0\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA genius serial killer who has been killing successfully for a decade. With one weak...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 1.3,
+      "empathy": 1.0,
+      "surprise": 1.0,
+      "engagement": 1.0,
+      "complexity": 1.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.0,
+      "complexity": 1.0,
+      "empathy": 1.0,
+      "engagement": 1.0,
+      "relevance": 3.0,
+      "surprise": 1.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 2.0\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 3.0\nCoherence: 2.0\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 3.0\nCoherence: 2.0\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nMichael, a 15 year old Call of Duty player, realizes the greatest trash-talking oppo...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 2.7,
+      "empathy": 2.0,
+      "surprise": 1.7,
+      "engagement": 2.3,
+      "complexity": 2.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.3,
+      "complexity": 2.0,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 2.1,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.3\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 3.3\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.0\nCoherence: 3.3\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nEarth becomes the battleground for two warring alien races, both of which claim to b...",
+    "gold_scores": {
+      "relevance": 4.7,
+      "coherence": 3.7,
+      "empathy": 2.3,
+      "surprise": 3.0,
+      "engagement": 3.3,
+      "complexity": 3.3
+    },
+    "pred_scores_avg": {
+      "coherence": 3.1,
+      "complexity": 3.0,
+      "empathy": 2.1,
+      "engagement": 2.8,
+      "relevance": 3.3,
+      "surprise": 2.1
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 3.0",
+        "Relevance: 3.3\nCoherence: 3.3\nEmpathy: 2.3\nSurprise: 2.3\nEngagement: 3.0\nComplexity: 3.0",
+        "Relevance: 3.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 3.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou live in a world of heroes and villains, your job is to contact heroes for hospit...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 2.7,
+      "empathy": 2.7,
+      "surprise": 2.0,
+      "engagement": 2.3,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.7,
+      "empathy": 2.2,
+      "engagement": 2.7,
+      "relevance": 2.7,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nIn an alternate universe, gunpowder was never invented. What does warfare look like?...",
+    "gold_scores": {
+      "relevance": 3.3,
+      "coherence": 3.7,
+      "empathy": 2.7,
+      "surprise": 2.0,
+      "engagement": 3.0,
+      "complexity": 3.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.7,
+      "empathy": 2.0,
+      "engagement": 2.3,
+      "relevance": 2.43,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.7",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.7",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite your heart onto your sleeve, Reddit.\n\nStory:\nFor not a single day was long eno...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 3.7,
+      "empathy": 2.7,
+      "surprise": 2.0,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 2.0,
+      "empathy": 1.9,
+      "engagement": 2.0,
+      "relevance": 2.2,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nGoogle search engine always was alive. They reset the server every day to prevent it...",
+    "gold_scores": {
+      "relevance": 3.7,
+      "coherence": 3.3,
+      "empathy": 3.0,
+      "surprise": 3.0,
+      "engagement": 3.0,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 4.3,
+      "complexity": 3.57,
+      "empathy": 3.0,
+      "engagement": 3.9,
+      "relevance": 4.7,
+      "surprise": 3.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 4.7\nCoherence: 4.3\nEmpathy: 3.0\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 3.7",
+        "Relevance: 4.7\nCoherence: 4.3\nEmpathy: 3.0\nSurprise: 3.3\nEngagement: 4.0\nComplexity: 3.7",
+        "Relevance: 4.7\nCoherence: 4.3\nEmpathy: 3.0\nSurprise: 3.3\nEngagement: 3.7\nComplexity: 3.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nWrite a story beginning with: “Are you buying that or what ?”\n\nStory:\n“are you buyin...",
+    "gold_scores": {
+      "relevance": 4.0,
+      "coherence": 1.3,
+      "empathy": 1.0,
+      "surprise": 1.0,
+      "engagement": 1.0,
+      "complexity": 1.3
+    },
+    "pred_scores_avg": {
+      "coherence": 2.3,
+      "complexity": 1.0,
+      "empathy": 1.0,
+      "engagement": 1.0,
+      "relevance": 3.7,
+      "surprise": 1.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.7\nCoherence: 2.3\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 3.7\nCoherence: 2.3\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 3.7\nCoherence: 2.3\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA scientific study proves that all humans have been breathing a mind-altering gas fr...",
+    "gold_scores": {
+      "relevance": 2.7,
+      "coherence": 3.3,
+      "empathy": 3.3,
+      "surprise": 3.0,
+      "engagement": 3.3,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.8,
+      "complexity": 2.1,
+      "empathy": 2.3,
+      "engagement": 2.43,
+      "relevance": 2.43,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0",
+        "Relevance: 2.7\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 2.7\nEmpathy: 2.3\nSurprise: 2.0\nEngagement: 2.3\nComplexity: 2.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou are scrolling through r/WritingPrompts, when this very prompt catches your atten...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 3.0,
+      "empathy": 2.3,
+      "surprise": 1.7,
+      "engagement": 2.7,
+      "complexity": 2.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 1.7,
+      "empathy": 1.7,
+      "engagement": 2.0,
+      "relevance": 3.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 3.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 3.3\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA man with a happy family and great life, comes across a genie who grants him three ...",
+    "gold_scores": {
+      "relevance": 2.0,
+      "coherence": 2.0,
+      "empathy": 1.7,
+      "surprise": 1.3,
+      "engagement": 1.3,
+      "complexity": 1.7
+    },
+    "pred_scores_avg": {
+      "coherence": 2.0,
+      "complexity": 1.0,
+      "empathy": 1.0,
+      "engagement": 1.0,
+      "relevance": 3.0,
+      "surprise": 1.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.0\nCoherence: 2.0\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 3.0\nCoherence: 2.0\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 3.0\nCoherence: 2.0\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nGoogle image finally opens face recognition to the public. For fun you submit a pict...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 3.7,
+      "empathy": 3.0,
+      "surprise": 4.3,
+      "engagement": 4.0,
+      "complexity": 3.7
+    },
+    "pred_scores_avg": {
+      "coherence": 4.0,
+      "complexity": 3.0,
+      "empathy": 2.3,
+      "engagement": 3.7,
+      "relevance": 3.3,
+      "surprise": 3.3
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 3.3\nCoherence: 4.0\nEmpathy: 2.3\nSurprise: 3.3\nEngagement: 3.7\nComplexity: 3.0",
+        "Relevance: 3.3\nCoherence: 4.0\nEmpathy: 2.3\nSurprise: 3.3\nEngagement: 3.7\nComplexity: 3.0",
+        "Relevance: 3.3\nCoherence: 4.0\nEmpathy: 2.3\nSurprise: 3.3\nEngagement: 3.7\nComplexity: 3.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nMy cat comes home nearly every morning with cuts and scratches all over. Write about...",
+    "gold_scores": {
+      "relevance": 3.0,
+      "coherence": 4.0,
+      "empathy": 3.7,
+      "surprise": 4.0,
+      "engagement": 3.7,
+      "complexity": 4.0
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.1,
+      "engagement": 2.3,
+      "relevance": 2.3,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3",
+        "Relevance: 2.3\nCoherence: 3.0\nEmpathy: 2.3\nSurprise: 1.7\nEngagement: 2.3\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nA scientific study proves that all humans have been breathing a mind-altering gas fr...",
+    "gold_scores": {
+      "relevance": 2.3,
+      "coherence": 3.7,
+      "empathy": 2.0,
+      "surprise": 2.0,
+      "engagement": 3.0,
+      "complexity": 2.7
+    },
+    "pred_scores_avg": {
+      "coherence": 3.0,
+      "complexity": 2.3,
+      "empathy": 2.0,
+      "engagement": 2.7,
+      "relevance": 2.0,
+      "surprise": 2.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3",
+        "Relevance: 2.0\nCoherence: 3.0\nEmpathy: 2.0\nSurprise: 2.0\nEngagement: 2.7\nComplexity: 2.3"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nwrite a scary story that will make me never want to use stairs again.\n\nStory:\n“what ...",
+    "gold_scores": {
+      "relevance": 1.0,
+      "coherence": 1.7,
+      "empathy": 2.0,
+      "surprise": 2.0,
+      "engagement": 1.7,
+      "complexity": 1.0
+    },
+    "pred_scores_avg": {
+      "coherence": 1.7,
+      "complexity": 1.0,
+      "empathy": 1.0,
+      "engagement": 1.0,
+      "relevance": 1.0,
+      "surprise": 1.0
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.0\nCoherence: 1.7\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 1.0\nCoherence: 1.7\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0",
+        "Relevance: 1.0\nCoherence: 1.7\nEmpathy: 1.0\nSurprise: 1.0\nEngagement: 1.0\nComplexity: 1.0"
+      ]
+    }
+  },
+  {
+    "input_story_snippet": "Writing Prompt:\nYou are part of an Elite Bodyguard team hired to protect a wealthy business mogul fr...",
+    "gold_scores": {
+      "relevance": 1.3,
+      "coherence": 3.3,
+      "empathy": 2.3,
+      "surprise": 3.0,
+      "engagement": 3.0,
+      "complexity": 3.0
+    },
+    "pred_scores_avg": {
+      "coherence": 2.7,
+      "complexity": 1.57,
+      "empathy": 1.9,
+      "engagement": 1.9,
+      "relevance": 1.0,
+      "surprise": 1.7
+    },
+    "run_details": {
+      "valid_runs_count": 3,
+      "raw_outputs": [
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 1.7\nSurprise: 1.7\nEngagement: 1.7\nComplexity: 1.3",
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7",
+        "Relevance: 1.0\nCoherence: 2.7\nEmpathy: 2.0\nSurprise: 1.7\nEngagement: 2.0\nComplexity: 1.7"
+      ]
+    }
+  }
+]

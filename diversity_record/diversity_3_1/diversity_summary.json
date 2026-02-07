@@ -1,0 +1,190 @@
+{
+  "config": {
+    "gpt_model": "gpt-4o-mini",
+    "keyword_count": 2,
+    "summary_word_count": 200,
+    "embedding_model": "text-embedding-3-small"
+  },
+  "results": [
+    {
+      "folder": "Bedtime_A3_I2",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.5035401322506221,
+        "avg_similarity": 0.4964598677493779,
+        "std_similarity": 0.10124964650173288,
+        "min_similarity": 0.15932534805909387,
+        "max_similarity": 0.8996174102270096,
+        "median_similarity": 0.49837638556325714
+      },
+      "summary": {
+        "diversity_score": 0.21995069993672356,
+        "avg_similarity": 0.7800493000632764,
+        "std_similarity": 0.03926347787387316,
+        "min_similarity": 0.6274432059191624,
+        "max_similarity": 0.8965914066918893,
+        "median_similarity": 0.7823098822617861
+      }
+    },
+    {
+      "folder": "Coffee_A3_I2",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.4965947329185917,
+        "avg_similarity": 0.5034052670814083,
+        "std_similarity": 0.10758451115198917,
+        "min_similarity": 0.1524708092847148,
+        "max_similarity": 0.8738010549618158,
+        "median_similarity": 0.507246532346374
+      },
+      "summary": {
+        "diversity_score": 0.23516112019847246,
+        "avg_similarity": 0.7648388798015275,
+        "std_similarity": 0.04555271045155581,
+        "min_similarity": 0.542492722142111,
+        "max_similarity": 0.8937704815969093,
+        "median_similarity": 0.7701233267080779
+      }
+    },
+    {
+      "folder": "Dentist_A3_I2",
+      "count": 99,
+      "keyword": {
+        "diversity_score": 0.518848904261902,
+        "avg_similarity": 0.481151095738098,
+        "std_similarity": 0.0994971015570816,
+        "min_similarity": 0.12412474207989656,
+        "max_similarity": 0.8143383451982112,
+        "median_similarity": 0.483354345327059
+      },
+      "summary": {
+        "diversity_score": 0.22753577051286067,
+        "avg_similarity": 0.7724642294871393,
+        "std_similarity": 0.04560995168444484,
+        "min_similarity": 0.5709228127688417,
+        "max_similarity": 0.8944396069184252,
+        "median_similarity": 0.7751688693781772
+      }
+    },
+    {
+      "folder": "Grocery_A3_I2",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.5274572324326576,
+        "avg_similarity": 0.47254276756734237,
+        "std_similarity": 0.1119373216841259,
+        "min_similarity": 0.16338571138707783,
+        "max_similarity": 0.9039554366340793,
+        "median_similarity": 0.4707478484921306
+      },
+      "summary": {
+        "diversity_score": 0.24856215644336588,
+        "avg_similarity": 0.7514378435566341,
+        "std_similarity": 0.042548054544906795,
+        "min_similarity": 0.5821004845487565,
+        "max_similarity": 0.8707223975011179,
+        "median_similarity": 0.7547007760434609
+      }
+    },
+    {
+      "folder": "Password_A3_I2",
+      "count": 99,
+      "keyword": {
+        "diversity_score": 0.5834326461311758,
+        "avg_similarity": 0.4165673538688241,
+        "std_similarity": 0.08987435676448033,
+        "min_similarity": 0.13112090116730696,
+        "max_similarity": 0.8311156115241104,
+        "median_similarity": 0.41313435988988556
+      },
+      "summary": {
+        "diversity_score": 0.2898864027504817,
+        "avg_similarity": 0.7101135972495183,
+        "std_similarity": 0.04985081131381535,
+        "min_similarity": 0.5429779095452979,
+        "max_similarity": 0.8627118767862751,
+        "median_similarity": 0.711060409993859
+      }
+    },
+    {
+      "folder": "Recycling_A3_I2",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.5531734504986835,
+        "avg_similarity": 0.4468265495013165,
+        "std_similarity": 0.09641603371838248,
+        "min_similarity": 0.12416736101160578,
+        "max_similarity": 0.9022585434391028,
+        "median_similarity": 0.44200663393731404
+      },
+      "summary": {
+        "diversity_score": 0.27660204771151087,
+        "avg_similarity": 0.7233979522884891,
+        "std_similarity": 0.04663359404878916,
+        "min_similarity": 0.5076479092357513,
+        "max_similarity": 0.8538332631997685,
+        "median_similarity": 0.7277413742898398
+      }
+    },
+    {
+      "folder": "Soccer_A3_I2",
+      "count": 88,
+      "keyword": {
+        "diversity_score": 0.5361625039817415,
+        "avg_similarity": 0.46383749601825847,
+        "std_similarity": 0.10589166556634913,
+        "min_similarity": 0.13120584072128863,
+        "max_similarity": 0.8257223451554365,
+        "median_similarity": 0.4612928236390291
+      },
+      "summary": {
+        "diversity_score": 0.22585585116177598,
+        "avg_similarity": 0.774144148838224,
+        "std_similarity": 0.045101147349215324,
+        "min_similarity": 0.6186674594235939,
+        "max_similarity": 0.9153995160257398,
+        "median_similarity": 0.7774145599382405
+      }
+    },
+    {
+      "folder": "Stovetop_A3_I2",
+      "count": 100,
+      "keyword": {
+        "diversity_score": 0.4571071454779976,
+        "avg_similarity": 0.5428928545220024,
+        "std_similarity": 0.10355716617730946,
+        "min_similarity": 0.19569457329277457,
+        "max_similarity": 0.9430058860032844,
+        "median_similarity": 0.5448769296930511
+      },
+      "summary": {
+        "diversity_score": 0.22873054765545442,
+        "avg_similarity": 0.7712694523445456,
+        "std_similarity": 0.04105943400643568,
+        "min_similarity": 0.5801906179647315,
+        "max_similarity": 0.8905223966994347,
+        "median_similarity": 0.773850599974889
+      }
+    },
+    {
+      "folder": "Umbrella_A3_I2",
+      "count": 99,
+      "keyword": {
+        "diversity_score": 0.5522201487131815,
+        "avg_similarity": 0.4477798512868186,
+        "std_similarity": 0.0988549677036525,
+        "min_similarity": 0.172670978737114,
+        "max_similarity": 0.8104642092156547,
+        "median_similarity": 0.4434345997096399
+      },
+      "summary": {
+        "diversity_score": 0.2828354904625989,
+        "avg_similarity": 0.7171645095374011,
+        "std_similarity": 0.05394027968054285,
+        "min_similarity": 0.5178260365571643,
+        "max_similarity": 0.8809848455871769,
+        "median_similarity": 0.7198746678969946
+      }
+    }
+  ]
+}
