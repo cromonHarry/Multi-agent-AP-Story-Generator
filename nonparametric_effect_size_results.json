@@ -1,0 +1,52 @@
+{
+  "config": {
+    "baseline_dir": "diversity_record/diversity_baseline",
+    "method_dir": "diversity_record/diversity_ap_model_only"
+  },
+  "keyword": {
+    "metric": "Keyword",
+    "n": 10,
+    "baseline_median": 0.3976761996746063,
+    "baseline_mean": 0.3896196365356445,
+    "method_median": 0.546449214220047,
+    "method_mean": 0.5342499673366546,
+    "normality_baseline_p": 0.07888825781171807,
+    "normality_method_p": 0.03990169053296476,
+    "wilcoxon_W": null,
+    "wilcoxon_p": 0.001953125,
+    "rank_biserial_r": 1.0,
+    "rank_biserial_interpretation": "large",
+    "W_plus": 55.0,
+    "W_minus": 0.0,
+    "cliffs_delta": 1.0,
+    "cliffs_delta_interpretation": "large",
+    "vargha_delaney_A": 1.0,
+    "vargha_delaney_interpretation": "large",
+    "count_method_greater": 10,
+    "count_baseline_greater": 0,
+    "count_ties": 0
+  },
+  "summary": {
+    "metric": "Summary",
+    "n": 10,
+    "baseline_median": 0.20820340514183044,
+    "baseline_mean": 0.2096153736114502,
+    "method_median": 0.2621075212955475,
+    "method_mean": 0.254630309343338,
+    "normality_baseline_p": 0.834153655628655,
+    "normality_method_p": 0.4324406087571161,
+    "wilcoxon_W": 1.0,
+    "wilcoxon_p": 0.00390625,
+    "rank_biserial_r": 0.9636363636363636,
+    "rank_biserial_interpretation": "large",
+    "W_plus": 54.0,
+    "W_minus": 1.0,
+    "cliffs_delta": 0.8,
+    "cliffs_delta_interpretation": "large",
+    "vargha_delaney_A": 0.9,
+    "vargha_delaney_interpretation": "large",
+    "count_method_greater": 9,
+    "count_baseline_greater": 1,
+    "count_ties": 0
+  }
+}

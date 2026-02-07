@@ -7,8 +7,8 @@ import json
 
 # ================= Configuration =================
 # Directories for two groups
-BASELINE_DIR = "diversity_baseline"
-AP_MODEL_DIR = "diversity_ap_model_only"
+BASELINE_DIR = "diversity_record/diversity_baseline"
+AP_MODEL_DIR = "diversity_record/diversity_ap_model_only"
 
 # Significance level
 ALPHA = 0.05
@@ -436,48 +436,6 @@ def print_comparison_table(data):
     print(f"{'MEDIAN':<15} | {np.median(data['baseline_keyword']):.4f}      | {np.median(data['method_keyword']):.4f}      | {np.median(data['baseline_summary']):.4f}      | {np.median(data['method_summary']):.4f}")
 
 
-def generate_latex_output(results_keyword, results_summary):
-    """Generate LaTeX formatted output"""
-    print(f"\n{'='*70}")
-    print("LaTeX Output for Paper")
-    print('='*70)
-    
-    rk = results_keyword
-    rs = results_summary
-    
-    # Effect size table
-    latex = r"""
-\begin{table}[h]
-\centering
-\caption{Non-parametric effect size analysis: Baseline vs AP Model}
-\begin{tabular}{lccccc}
-\toprule
-Metric & $Mdn_{BL}$ & $Mdn_{AP}$ & $r$ & Cliff's $\delta$ & $A$ \\
-\midrule
-"""
-    
-    latex += f"Keyword & {rk['baseline_median']:.3f} & {rk['method_median']:.3f} & {rk['rank_biserial_r']:.2f} & {rk['cliffs_delta']:.2f} & {rk['vargha_delaney_A']:.2f} \\\\\n"
-    latex += f"Summary & {rs['baseline_median']:.3f} & {rs['method_median']:.3f} & {rs['rank_biserial_r']:.2f} & {rs['cliffs_delta']:.2f} & {rs['vargha_delaney_A']:.2f} \\\\\n"
-    
-    latex += r"""\bottomrule
-\end{tabular}
-\begin{tablenotes}
-\small
-\item Note: $Mdn$ = Median, $r$ = rank-biserial correlation, $\delta$ = Cliff's delta, $A$ = Vargha-Delaney A.
-\item Effect size interpretation: """ + f"Keyword r = {rk['rank_biserial_r']:.2f} ({rk['rank_biserial_interpretation']}), Summary r = {rs['rank_biserial_r']:.2f} ({rs['rank_biserial_interpretation']})." + r"""
-\end{tablenotes}
-\end{table}
-"""
-    print(latex)
-    
-    # In-text reporting
-    print("\n[In-text reporting format]:")
-    print(f"  Keyword: Wilcoxon W = {rk['wilcoxon_W']:.1f}, p = {rk['wilcoxon_p']:.4f}, r = {rk['rank_biserial_r']:.2f}")
-    print(f"  Summary: Wilcoxon W = {rs['wilcoxon_W']:.1f}, p = {rs['wilcoxon_p']:.4f}, r = {rs['rank_biserial_r']:.2f}")
-    
-    return latex
-
-
 def main():
     print("="*70)
     print("Non-parametric Effect Size Calculator")
@@ -521,9 +479,6 @@ def main():
         data["method_summary"],
         "Summary"
     )
-    
-    # 5. Generate LaTeX
-    latex = generate_latex_output(results_keyword, results_summary)
     
     # 6. Save results
     output = {
