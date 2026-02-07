@@ -37,22 +37,6 @@ Baseline vs AP_Model
                     a random AP_Model score > random Baseline score
 ----------------------------------------------------------------------
 
-[Interpretation Guide for Rank-biserial r]
-  |r| < 0.1:   negligible
-  |r| 0.1-0.3: small
-  |r| 0.3-0.5: medium
-  |r| >= 0.5:  large
-
-[Interpretation Guide for Cliff's delta]
-  |d| < 0.147:     negligible
-  |d| 0.147-0.33:  small
-  |d| 0.33-0.474:  medium
-  |d| >= 0.474:    large
-
-[Recommendation for Paper]
-  Report: r = 1.00 (large effect)
-  Or: Cliff's delta = 1.00 (large effect)
-
 ======================================================================
 Non-parametric Effect Size Analysis: Summary Diversity
 Baseline vs AP_Model
@@ -67,43 +51,33 @@ Baseline vs AP_Model
   Baseline:  p=0.8342 [Normal]
   AP_Model:  p=0.4324 [Normal]
 
-[Wilcoxon Signed-Rank Test]
-  W-statistic: 1.0000
-  p-value:     0.003906
-  Result:      *** Significant (p < 0.05)
+[Statistical Test]
+  Paired t-test: t(9)=4.4307, p=0.001645
 
-[Non-parametric Effect Size Measures]
+[Effect Size Measures]
 ----------------------------------------------------------------------
-  Rank-biserial correlation (r): 0.9636  [large]
-    W+ (sum of positive ranks): 54.0
-    W- (sum of negative ranks): 1.0
-    n (non-zero differences):   10
-    Interpretation: r = 1 means all AP_Model > Baseline
-                    r = -1 means all Baseline > AP_Model
-                    r = 0 means no difference
+  Cohen's d (paired):     1.4011  [very large]
+    Formula: mean(diff) / std(diff)
+    Best for: paired/repeated measures designs
 
-  Cliff's delta:                 0.8000  [large]
-    # AP_Model > Baseline: 9
-    # Baseline > AP_Model: 1
-    # Ties:                0
+  Cohen's d (pooled):     2.0973  [very large]
+    95% CI: [1.0061, 3.1885]
+    Formula: (mean2 - mean1) / pooled_std
+    Best for: independent samples comparison
 
-  Vargha-Delaney A:              0.9000  [large]
-    Interpretation: A = 0.90 means 90% probability that
-                    a random AP_Model score > random Baseline score
+  Hedges' g:              2.0087  [very large]
+    Formula: Cohen's d * correction_factor
+    Best for: small samples (n < 20), unbiased estimate
+
+  Glass's delta:          2.9436  [very large]
+    Formula: (mean2 - mean1) / std(control)
+    Best for: when treatment affects variance
+
+  Cohen's d_av:           2.1688  [very large]
+    Formula: (mean2 - mean1) / average_std
+    Best for: when variances are unequal
+
+  CLES (Probability):     0.9200  (92.0%)
+    Interpretation: 92.0% chance that a random AP_Model score
+                    exceeds a random Baseline score
 ----------------------------------------------------------------------
-
-[Interpretation Guide for Rank-biserial r]
-  |r| < 0.1:   negligible
-  |r| 0.1-0.3: small
-  |r| 0.3-0.5: medium
-  |r| >= 0.5:  large
-
-[Interpretation Guide for Cliff's delta]
-  |d| < 0.147:     negligible
-  |d| 0.147-0.33:  small
-  |d| 0.33-0.474:  medium
-  |d| >= 0.474:    large
-
-[Recommendation for Paper]
-  Report: r = 0.96 (large effect)
-  Or: Cliff's delta = 0.80 (large effect)
