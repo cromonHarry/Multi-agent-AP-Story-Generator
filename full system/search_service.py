@@ -27,7 +27,7 @@ class SearchService:
             arrow_desc = f"relationship between {start_node} and {target_node}"
 
         prompt = f"""
-You are a researcher. Generate ONE specific, high-quality search query to investigate the AP Model relationship:
+You are a query generator. Generate ONE specific, high-quality search query to investigate the AP Model relationship:
 "{arrow_name}" (from "{start_node}" to "{target_node}").
 Description: {arrow_desc}
 

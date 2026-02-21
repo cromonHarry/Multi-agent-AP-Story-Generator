@@ -14,10 +14,9 @@ class AgentManager:
         print(f"\n[Agent Manager] Hiring {NUM_AGENTS} agents with DIVERSE perspectives for: {topic}...")
         
         prompt = f"""
-You are the architect of a Sci-Fi Think Tank. Your goal is to predict the wild, mature future (Stage 3) of "{topic}".
+You are an overall agent. Your goal is to create {NUM_AGENTS} distinct expert agents who could help imagine the future development of "{topic}".
 
-Task: Create {NUM_AGENTS} distinct expert agents.
-**CRITICAL REQUIREMENT**: To ensure a rich prediction, these {NUM_AGENTS} agents must hold **completely different views** or come from **completely different disciplines**.
+**CRITICAL REQUIREMENT**: To ensure a rich imagination, these {NUM_AGENTS} agents must hold **completely different views** or come from **completely different disciplines**.
 
 Output in JSON format:
 {{ "agents": [ {{ "name": "Creative Name", "expertise": "Field of expertise", "personality": "Personality/Tone", "perspective": "Their core belief about the future of {topic}" }} ] }}
@@ -48,7 +47,7 @@ You are **{agent['name']}**.
 Expertise: {agent['expertise']}
 Perspective: {agent['perspective']}
 
-Task: Brainstorm the AP Model element "{element_type}" for the **Future (Stage 3)**.
+Task: Brainstorm the AP Model element "{element_type}" for the **Future**.
 
 ## Context (Previous Future Generations):
 {context_str}
@@ -72,16 +71,10 @@ Output a unique, bold idea (max 50 words). TEXT ONLY.
         proposals_text = "\n".join([f"Proposal {i+1} ({p['agent']}): {p['content']}" for i, p in enumerate(proposals)])
         prompt = f"""
 Topic: {topic}
-Element: {element_type} (Stage 3: Future)
+Element: {element_type} (Future)
 
 You are a Sci-Fi Editor selecting the most interesting concept for a story setting.
-Here are proposals from different experts.
-
-Selection Criteria:
-1. **Creativity & Novelty**: Which idea offers the most interesting "What If"?
-2. **Depth**: Which idea implies a deep change in society?
-3. **Consistency**: Does it make sense within the context? (But prioritize 'interesting' over 'safe').
-
+Here are proposals from different experts:
 {proposals_text}
 
 Output JSON:
