@@ -1,18 +1,8 @@
-import os
-
-# API Keys (Should be set in environment variables for security)
 OPENAI_API_KEY = "your api here"
-NUM_AGENTS = 3 
-
-# 定义多智能体辩论/生成的迭代轮数
+NUM_AGENTS = 3
 NUM_ITERATIONS = 3
-
-# [NEW] 定义同时生成的最大故事数量 (并发线程数)
 MAX_CONCURRENT_STORIES = 5
 
-# ==========================================
-# System Prompt (保持不变)
-# ==========================================
 SYSTEM_PROMPT = """You are a science fiction expert who analyzes society based on the "Archaeological Prototyping (AP)" model. Here is an introduction to this model:
 
 AP is a sociocultural model consisting of 18 items (6 objects and 12 arrows). In essence, it is a model that divides society and culture into 18 elements around a specific theme and logically describes their connections.

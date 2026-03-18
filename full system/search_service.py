@@ -1,7 +1,8 @@
+import time
 from openai import OpenAI
 from tavily import TavilyClient
 from config import SYSTEM_PROMPT, AP_MODEL_STRUCTURE
-import time
+from utils import parse_json_response
 
 class SearchService:
     def __init__(self, openai_key, tavily_key):
@@ -9,11 +10,6 @@ class SearchService:
         self.tavily_client = TavilyClient(api_key=tavily_key)
 
     def generate_question(self, start_node: str, target_node: str, tech_topic: str, era_context: str) -> str:
-        """
-        Generates a search query to find the relationship between start_node and target_node
-        in the context of the specific technology and era.
-        """
-        # Find the arrow definition that connects these two nodes
         arrow_name = None
         arrow_desc = ""
         for name, info in AP_MODEL_STRUCTURE["arrows"].items():
@@ -21,9 +17,8 @@ class SearchService:
                 arrow_name = name
                 arrow_desc = info["description"]
                 break
-        
+
         if not arrow_name:
-            # Fallback if direct arrow not found (though it should be based on logic)
             arrow_desc = f"relationship between {start_node} and {target_node}"
 
         prompt = f"""
@@ -49,13 +44,16 @@ Output ONLY the query string. No quotes, no explanations.
         return response.choices[0].message.content.strip()
 
     def search_tavily(self, query: str) -> str:
-        """Executes the search and returns the answer/content."""
         try:
-            # Add delay to avoid rate limits if running rapidly
-            time.sleep(0.5) 
-            response = self.tavily_client.search(query=query, include_answer="advanced", search_depth="advanced", max_results=10)
+            time.sleep(0.5)  # Avoid hitting rate limits during rapid calls
+            response = self.tavily_client.search(
+                query=query,
+                include_answer="advanced",
+                search_depth="advanced",
+                max_results=10
+            )
             answer = response.get('answer', '')
-            if answer: 
+            if answer:
                 return answer
             results = response.get('results', [])
             if results:
@@ -65,12 +63,8 @@ Output ONLY the query string. No quotes, no explanations.
             return f"Search failed: {str(e)}"
 
     def synthesize_node_data(self, start_node, target_node, arrow_name, search_result) -> dict:
-        """
-        Uses GPT to convert the raw search result into the structured AP node/arrow format.
-        We need to extract data for the Arrow and potentially the Target Node.
-        """
         prompt = f"""
-Based on the search result below, summarize the findings for the AP Model Arrow "{arrow_name}" 
+Based on the search result below, summarize the findings for the AP Model Arrow "{arrow_name}"
 (which goes from "{start_node}" to "{target_node}").
 
 Search Result:
@@ -84,7 +78,6 @@ Output in valid JSON format:
     "target_node_content": "Content derived for the object '{target_node}' based on this relationship"
 }}
 """
-        from utils import parse_json_response
         response = self.client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
