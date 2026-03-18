@@ -1,4 +1,5 @@
 OPENAI_API_KEY = "your api here"
+TAVILY_API_KEY = "your tavily api here"
 NUM_AGENTS = 3
 NUM_ITERATIONS = 3
 MAX_CONCURRENT_STORIES = 5
