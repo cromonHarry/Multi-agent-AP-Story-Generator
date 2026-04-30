@@ -4,7 +4,7 @@ Repository for the paper: **"AP-Based LLM Story Generation: Envisioning Technolo
 
 This project implements a multi-agent pipeline that generates science fiction stories grounded in the **Archaeological Prototyping (AP)** sociocultural model. Given a technology theme (e.g., "Smartphone"), the system builds a structured model of how that technology transforms society in the future, then uses that model as the backbone for a coherent sci-fi narrative.
 
-**This paper is currently under review for ICEC 2026.**
+**This paper is currently accepted by ICEC 2026.**
 
 ---
 
