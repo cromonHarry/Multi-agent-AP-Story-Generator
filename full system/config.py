@@ -1,8 +1,11 @@
+# --- API Keys (replace with your own) ---
 OPENAI_API_KEY = "your api here"
-TAVILY_API_KEY = "your tavily api here"
-NUM_AGENTS = 3
-NUM_ITERATIONS = 3
-MAX_CONCURRENT_STORIES = 5
+TAVILY_API_KEY = "your tavily api here"  # Only needed for search_service.py
+
+# --- Multi-Agent Hyperparameters ---
+NUM_AGENTS = 3             # Expert agents brainstorming each AP element
+NUM_ITERATIONS = 3         # Rounds of brainstorming per element
+MAX_CONCURRENT_STORIES = 5 # Parallel threads used in batch_run.py
 
 SYSTEM_PROMPT = """You are a science fiction expert who analyzes society based on the "Archaeological Prototyping (AP)" model. Here is an introduction to this model:
 

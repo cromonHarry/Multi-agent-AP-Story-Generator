@@ -26,11 +26,10 @@ Output in JSON format:
             response_format={"type": "json_object"}
         )
         result = parse_json_response(response.choices[0].message.content)
-        self.agents = result.get("agents", [])
+        self.agents = result.get("agents", [])[:NUM_AGENTS]
 
-        if len(self.agents) > NUM_AGENTS:
-            self.agents = self.agents[:NUM_AGENTS]
-
+        if not self.agents:
+            print("  [Warning] No agents were generated. Check the API response.")
         for agent in self.agents:
             print(f"  - Agent Hired: {agent['name']} ({agent['expertise']})")
         return self.agents
@@ -65,8 +64,11 @@ Output a unique, bold idea (max 50 words). TEXT ONLY.
         )
         return response.choices[0].message.content.strip()
 
-    def _judge_proposals(self, proposals, element_type, topic):
-        proposals_text = "\n".join([f"Proposal {i+1} ({p['agent']}): {p['content']}" for i, p in enumerate(proposals)])
+    def _judge_proposals(self, proposals: list, element_type: str, topic: str) -> dict:
+        proposals_text = "\n".join([
+            f"Proposal {i+1} ({p['agent']}): {p['content']}"
+            for i, p in enumerate(proposals)
+        ])
 
         prompt = f"""
 Topic: {topic}
@@ -87,15 +89,16 @@ Output JSON:
         )
         return parse_json_response(response.choices[0].message.content)
 
-    def _final_judge(self, iteration_results, element_type, topic):
-        iter_text = ""
-        for res in iteration_results:
-            iter_text += f"Iteration {res['iteration']}: {res['judgment']['selected_content']} (Reason: {res['judgment']['reason']})\n"
+    def _final_judge(self, iteration_results: list, element_type: str, topic: str) -> dict:
+        candidates_summary = "".join([
+            f"Iteration {r['iteration']}: {r['judgment']['selected_content']} (Reason: {r['judgment']['reason']})\n"
+            for r in iteration_results
+        ])
 
         prompt = f"""
 Final Decision for "{element_type}" in "{topic}" (Stage 3).
 Here are the winners of separate brainstorming iterations:
-{iter_text}
+{candidates_summary}
 
 Choose the absolute best final content for this element.
 Output JSON:
@@ -109,16 +112,24 @@ Output JSON:
         )
         return parse_json_response(response.choices[0].message.content)
 
-    def run_multi_agent_generation(self, element_type, element_desc, topic, full_context_str):
+    def run_multi_agent_generation(self, element_type: str, element_desc: str, topic: str, full_context_str: str) -> str:
+        """Run NUM_ITERATIONS rounds of parallel brainstorming, then select the best result."""
         print(f"  > Generating '{element_type}'...")
         iteration_results = []
         agent_history = {agent['name']: [] for agent in self.agents}
 
         for i in range(1, NUM_ITERATIONS + 1):
+            # All agents brainstorm in parallel
             proposals = []
             with concurrent.futures.ThreadPoolExecutor(max_workers=NUM_AGENTS) as executor:
                 future_to_agent = {
-                    executor.submit(self._agent_think, agent, f"{element_type} ({element_desc})", full_context_str, agent_history[agent['name']]): agent
+                    executor.submit(
+                        self._agent_think,
+                        agent,
+                        f"{element_type} ({element_desc})",
+                        full_context_str,
+                        agent_history[agent['name']]
+                    ): agent
                     for agent in self.agents
                 }
                 for future in concurrent.futures.as_completed(future_to_agent):
@@ -133,9 +144,11 @@ Output JSON:
             if not proposals:
                 continue
 
+            # Judge picks the best proposal from this round
             judgment = self._judge_proposals(proposals, element_type, topic)
             iteration_results.append({"iteration": i, "judgment": judgment})
 
+        # Final judge selects the best result across all iterations
         final_result = self._final_judge(iteration_results, element_type, topic)
         print(f"    -> Final Decision: {final_result.get('final_content', '')[:50]}...")
         return final_result.get("final_content")

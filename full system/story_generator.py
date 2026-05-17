@@ -4,11 +4,26 @@ from utils import parse_json_response
 
 CREATIVE_SYSTEM_PROMPT = "You are an award-winning Science Fiction author. Your goal is to write compelling, logical, and creative narratives based on given data."
 
+_MAX_RETRIES = 3
+
+NARRATIVE_STEPS = [
+    {"name": "1. Exposition",     "goal": "The story begins in the setting, introducing the characters and the setting of the story."},
+    {"name": "2. Rising Action",  "goal": "An event or conflict is introduced and characters begin to face a series of challenges."},
+    {"name": "3. Climax",         "goal": "This is the most exciting moment or turning point in the story."},
+    {"name": "4. Falling Action", "goal": "After the climax, the story begins to transition to the ending."},
+    {"name": "5. Resolution",     "goal": "The ending of the story."}
+]
+
+
 class StoryGenerator:
     def __init__(self, openai_client):
         self.client = openai_client
 
-    def _overseer_prepare_brief(self, ap_context_data, target_type):
+    # ------------------------------------------------------------------ #
+    #  Overseer methods (coordination / review)                           #
+    # ------------------------------------------------------------------ #
+
+    def _overseer_prepare_brief(self, ap_context_data: dict, target_type: str) -> dict:
         print(f"  [Global Overseer] Preparing brief for {target_type}...")
         ap_context_str = json.dumps(ap_context_data, indent=2, ensure_ascii=False)
 
@@ -44,7 +59,7 @@ Create a **Concept Brief** for the {target_type} Agent.
         )
         return parse_json_response(response.choices[0].message.content)
 
-    def _global_check(self, content_type, content_data, context_data, ap_master_data, specific_criteria):
+    def _global_check(self, content_type: str, content_data: dict, context_data, ap_master_data: dict, specific_criteria: str) -> dict:
         print(f"  [Global Overseer] Reviewing {content_type}...")
         ap_master_str = json.dumps(ap_master_data, indent=2, ensure_ascii=False)
 
@@ -80,7 +95,11 @@ Your job is to ensure the content follows the logic of the **AP Model** and the 
         )
         return parse_json_response(response.choices[0].message.content)
 
-    def _agent_build_settings(self, setting_brief, feedback=""):
+    # ------------------------------------------------------------------ #
+    #  Creative agent methods (generation)                                #
+    # ------------------------------------------------------------------ #
+
+    def _agent_build_settings(self, setting_brief: dict, feedback: str = "") -> dict:
         print(f"  [Setting Agent] Drafting World & Characters... {(f'(Fixing: {feedback})' if feedback else '')}")
         brief_str = json.dumps(setting_brief, indent=2, ensure_ascii=False)
 
@@ -113,7 +132,7 @@ You are the **Setting Agent**. Your task is to design amazing and creative World
         )
         return parse_json_response(response.choices[0].message.content)
 
-    def _agent_build_outline_step(self, step_name, step_goal, settings, plot_brief, current_outline_history, feedback=""):
+    def _agent_build_outline_step(self, step_name: str, step_goal: str, settings: dict, plot_brief: dict, current_outline_history: dict, feedback: str = "") -> dict:
         print(f"  [Outline Agent] Drafting {step_name}... {(f'(Fixing: {feedback})' if feedback else '')}")
 
         history_text = "\n".join([f"{k}: {v['summary']}" for k, v in current_outline_history.items()])
@@ -153,85 +172,80 @@ You are the **Outline Agent**. Write the **{step_name}** of the story.
         )
         return parse_json_response(response.choices[0].message.content)
 
-    def generate_outline(self, ap_data_dict: dict) -> str:
-        print("\n=== Starting Multi-Agent Story Generation ===")
+    # ------------------------------------------------------------------ #
+    #  Approval loops (retry until Overseer approves or retries exhaust)  #
+    # ------------------------------------------------------------------ #
 
-        future_context_data = ap_data_dict.get("Stage 3", ap_data_dict)
-        max_retries = 3
-
-        # Phase 0: Overseer prepares setting brief
-        setting_brief = self._overseer_prepare_brief(future_context_data, "setting")
-        print(f"  > Setting Brief: {setting_brief.get('briefing_theme', 'Unknown Theme')}")
-
-        # Phase 1: Build and verify world settings (with feedback loop)
-        settings = None
+    def _build_approved_settings(self, setting_brief: dict, future_context_data: dict) -> dict:
         feedback = ""
-        for _ in range(max_retries):
-            settings = self._agent_build_settings(setting_brief, feedback)
-            criteria = "Check if the 'World View' and 'Characters' logically reflect the Director's Brief AND do not contradict the Future AP Model."
-            review = self._global_check("Story Settings", settings, json.dumps(setting_brief, ensure_ascii=False), future_context_data, criteria)
+        criteria = "Check if the 'World View' and 'Characters' logically reflect the Director's Brief AND do not contradict the Future AP Model."
+        settings = {}
 
+        for _ in range(_MAX_RETRIES):
+            settings = self._agent_build_settings(setting_brief, feedback)
+            review = self._global_check(
+                "Story Settings", settings,
+                json.dumps(setting_brief, ensure_ascii=False),
+                future_context_data, criteria
+            )
             if review.get('approved'):
                 print("  [Global Overseer] Settings Approved.")
-                break
-            else:
-                feedback = review.get('feedback', '')
-                print(f"  [Global Overseer] Settings Rejected. Feedback: {feedback}")
+                return settings
+            feedback = review.get('feedback', '')
+            print(f"  [Global Overseer] Settings Rejected. Feedback: {feedback}")
 
+        return settings  # use last attempt if retries are exhausted
+
+    def _build_approved_outline_step(self, step: dict, settings: dict, plot_brief: dict, outline_so_far: dict, future_context_data: dict) -> dict:
+        feedback = ""
+        criteria = "Does this outline step follow the Director's Plot Brief AND remain consistent with the Future AP Model?"
+        step_content = {}
+
+        for _ in range(_MAX_RETRIES):
+            step_content = self._agent_build_outline_step(
+                step['name'], step['goal'], settings, plot_brief, outline_so_far, feedback
+            )
+            context_for_review = f"PLOT BRIEF: {json.dumps(plot_brief)}\nPREVIOUS PLOT: {json.dumps(outline_so_far)}"
+            review = self._global_check(step['name'], step_content, context_for_review, future_context_data, criteria)
+
+            if review.get('approved'):
+                print(f"  [Global Overseer] {step['name']} Approved.")
+                return step_content
+            feedback = review.get('feedback', '')
+            print(f"  [Global Overseer] {step['name']} Rejected. Feedback: {feedback}")
+
+        return step_content  # use last attempt if retries are exhausted
+
+    # ------------------------------------------------------------------ #
+    #  Main entry point                                                   #
+    # ------------------------------------------------------------------ #
+
+    def generate_outline(self, ap_data_dict: dict) -> str:
+        print("\n=== Starting Multi-Agent Story Generation ===")
+        future_context_data = ap_data_dict.get("Stage 3", ap_data_dict)
+
+        # Phase 1: Build and verify world settings
+        setting_brief = self._overseer_prepare_brief(future_context_data, "setting")
+        print(f"  > Setting Brief: {setting_brief.get('briefing_theme', 'Unknown Theme')}")
+        settings = self._build_approved_settings(setting_brief, future_context_data)
         if not settings:
             return "Error: Settings generation failed."
 
-        # Phase 2: Overseer prepares plot brief, then build outline step by step
+        # Phase 2: Build each narrative beat sequentially
         plot_brief = self._overseer_prepare_brief(future_context_data, "outline")
         print(f"  > Plot Brief: {plot_brief.get('briefing_theme', 'Unknown Theme')}")
-
-        steps_config = [
-            {"name": "1. Exposition",     "goal": "The story begins in the setting, introducing the characters and the setting of the story."},
-            {"name": "2. Rising Action",  "goal": "An event or conflict is introduced and characters begin to face a series of challenges."},
-            {"name": "3. Climax",         "goal": "This is the most exciting moment or turning point in the story."},
-            {"name": "4. Falling Action", "goal": "After the climax, the story begins to transition to the ending."},
-            {"name": "5. Resolution",     "goal": "The ending of the story."}
-        ]
-
         final_outline_steps = {}
-
-        for step in steps_config:
+        for step in NARRATIVE_STEPS:
             print(f"\n-- Processing {step['name']} --")
-            step_content = None
-            feedback = ""
+            final_outline_steps[step['name']] = self._build_approved_outline_step(
+                step, settings, plot_brief, final_outline_steps, future_context_data
+            )
 
-            for _ in range(max_retries):
-                step_content = self._agent_build_outline_step(
-                    step['name'],
-                    step['goal'],
-                    settings,
-                    plot_brief,
-                    final_outline_steps,
-                    feedback
-                )
-                context_for_review = f"PLOT BRIEF: {json.dumps(plot_brief)}\nPREVIOUS PLOT: {json.dumps(final_outline_steps)}"
-                criteria = "Does this outline step follow the Director's Plot Brief AND remain consistent with the Future AP Model?"
-                review = self._global_check(step['name'], step_content, context_for_review, future_context_data, criteria)
-
-                if review.get('approved'):
-                    print(f"  [Global Overseer] {step['name']} Approved.")
-                    final_outline_steps[step['name']] = step_content
-                    break
-                else:
-                    feedback = review.get('feedback', '')
-                    print(f"  [Global Overseer] {step['name']} Rejected. Feedback: {feedback}")
-
-            # If still not approved after retries, use the last generated version
-            if step['name'] not in final_outline_steps:
-                final_outline_steps[step['name']] = step_content
-
-        # Phase 3: Compile the 5 paragraphs into plain text
+        # Phase 3: Compile the 5 paragraphs into the final story text
         print("\n=== Compiling Final Story ===")
-        paragraphs = []
-        for step in steps_config:
-            step_data = final_outline_steps.get(step['name'], {})
-            text = step_data.get('summary', '').strip()
-            if text:
-                paragraphs.append(text)
-
+        paragraphs = [
+            final_outline_steps[step['name']].get('summary', '').strip()
+            for step in NARRATIVE_STEPS
+            if final_outline_steps.get(step['name'], {}).get('summary', '').strip()
+        ]
         return "\n\n".join(paragraphs)

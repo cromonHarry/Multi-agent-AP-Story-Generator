@@ -56,16 +56,12 @@ def run_batch_generation():
         os.makedirs(output_dir, exist_ok=True)
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_CONCURRENT_STORIES) as executor:
-            future_to_index = {
-                executor.submit(process_single_story, theme, i, output_dir): i
+            futures = [
+                executor.submit(process_single_story, theme, i, output_dir)
                 for i in range(1, stories_per_theme + 1)
-            }
-            for future in concurrent.futures.as_completed(future_to_index):
-                index = future_to_index[future]
-                try:
-                    future.result()
-                except Exception as exc:
-                    print(f"  [Story {index}] Exception: {exc}")
+            ]
+            for future in concurrent.futures.as_completed(futures):
+                future.result()  # errors are caught and logged inside process_single_story
 
     print("\n" + "=" * 50)
     print("BATCH GENERATION COMPLETE")
